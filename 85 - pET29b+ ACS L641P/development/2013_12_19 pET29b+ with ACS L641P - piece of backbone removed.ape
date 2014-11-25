@@ -1,0 +1,26 @@
+LOCUS       New_DNA                  415 bp ds-DNA     linear       20-DEC-2013
+SOURCE      
+  ORGANISM  
+COMMENT     2013_12_19 pET29b+ with ACS L641P - TEMPLATE from 2525 to 2939
+COMMENT     downloaded from
+            http://www.emdmillipore.com/life-science-research/vector-table-pet-
+            29b-plus-vector-sequence/c_7lab.s1OiIwAAAEhqw0LddSm  2013/12/19 by
+            Janet Matsen
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     primer_bind     2..20
+                     /label=191-68.1oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 tcaccgtcat caccgaaacg cgcgaggcag ctgcggtaaa gctcatcagc gtggtcgtga
+       61 agcgattcac agatgtctgc ctgttcatcc gcgtccagct cgttgagttt ctccagaagc
+      121 gttaatgtct ggcttctgat aaagcgggcc atgttaaggg cggttttttc ctgtttggtc
+      181 actgatgcct ccgtgtaagg gggatttctg ttcatggggg taatgatacc gatgaaacga
+      241 gagaggatgc tcacgatacg ggttactgat gatgaacatg cccggttact ggaacgttgt
+      301 gagggtaaac aactggcggt atggatgcgg cgggaccaga gaaaaatcac tcagggtcaa
+      361 tgccagcgct tcgttaatac agatgtaggt gttccacagg gtagccagca gcatc
+//

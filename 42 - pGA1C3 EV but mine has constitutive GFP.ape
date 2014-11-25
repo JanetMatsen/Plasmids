@@ -1,0 +1,93 @@
+LOCUS       44___pGA1C3_EV_but        2071 bp ds-DNA   linear       24-JUL-2012
+DEFINITION  pGA1C3, Gibson assembly plasmid (bglBrick) with pLac-GFP insert
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc            22..57
+                     /gene="pSB3K3 Post-Suffix"
+                     /label=pSB3K3 Post-Suffix
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     misc_feature    263..877
+                     /label=rep(pMB1)(rev)
+                     /ApEinfo_fwdcolor=#fff2e9
+                     /ApEinfo_revcolor=green
+     misc_feature    157..176
+                     /label=VR
+                     /ApEinfo_fwdcolor=#1ac5dd
+                     /ApEinfo_revcolor=green
+     misc_feature    1933..1952
+                     /label=VF2
+                     /ApEinfo_fwdcolor=#7dcda2
+                     /ApEinfo_revcolor=#4ebc7b
+     misc_feature    2051..2056
+                     /label=EcoRI
+                     /ApEinfo_fwdcolor=#56caff
+                     /ApEinfo_revcolor=#a1e3ff
+     misc_feature    2066..2071
+                     /label=BglII
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+     misc_feature    1..6
+                     /label=BamHI
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+     misc_feature    16..21
+                     /label=XhoI
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+     misc_feature    1035..1040
+                     /label=XhoI(1)
+                     /ApEinfo_label=XhoI
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+     misc_feature    1927..1932
+                     /label=XhoI(2)
+                     /ApEinfo_label=XhoI
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+     misc_feature    1..21
+                     /label=pGA suffix
+                     /ApEinfo_fwdcolor=#ff489a
+                     /ApEinfo_revcolor=#f268d0
+     misc_feature    2051..2071
+                     /label=pGA prefix
+                     /ApEinfo_fwdcolor=#fb718c
+                     /ApEinfo_revcolor=#f5657a
+ORIGIN
+        1 ggatccaaca gggttctcga gtccggcaaa aaaacgggca aggtgtcacc accctgccct
+       61 ttttctttaa aaccgaaaag attacttcgc gttatgcagg cttcctcgct cactgactcg
+      121 ctgcgctcgg tcgttcggct gcggcgagcg gtatcagctc actcaaaggc ggtaatacgg
+      181 ttatccacag aatcagggga taacgcagga aagaacatgt gagcaaaagg ccagcaaaag
+      241 gccaggaacc gtaaaaaggc cgcgttgctg gcgtttttcc acaggctccg cccccctgac
+      301 gagcatcaca aaaatcgacg ctcaagtcag aggtggcgaa acccgacagg actataaaga
+      361 taccaggcgt ttccccctgg aagctccctc gtgcgctctc ctgttccgac cctgccgctt
+      421 accggatacc tgtccgcctt tctcccttcg ggaagcgtgg cgctttctca tagctcacgc
+      481 tgtaggtatc tcagttcggt gtaggtcgtt cgctccaagc tgggctgtgt gcacgaaccc
+      541 cccgttcagc ccgaccgctg cgccttatcc ggtaactatc gtcttgagtc caacccggta
+      601 agacacgact tatcgccact ggcagcagcc actggtaaca ggattagcag agcgaggtat
+      661 gtaggcggtg ctacagagtt cttgaagtgg tggcctaact acggctacac tagaagaaca
+      721 gtatttggta tctgcgctct gctgaagcca gttaccttcg gaaaaagagt tggtagctct
+      781 tgatccggca aacaaaccac cgctggtagc ggtggttttt ttgtttgcaa gcagcagatt
+      841 acgcgcagaa aaaaaggatc tcaagaagat cctttgatct tttctacggg gtctgacgct
+      901 cagtggaacg aaaactcacg ttaagggatt ttggtcatga gattatcaaa aaggatcttc
+      961 acctagatcc ttttaaatta aaaatgaagt tttaaatcaa tctaaagtat atatgagtaa
+     1021 acttggtctg acagctcgag gcttggattc tcaccaataa aaaacgcccg gcggcaaccg
+     1081 agcgttctga acaaatccag atggagttct gaggtcatta ctggatctat caacaggagt
+     1141 ccaagcgagc tcgatatcaa attacgcccc gccctgccac tcatcgcagt actgttgtaa
+     1201 ttcattaagc attctgccga catggaagcc atcacaaacg gcatgatgaa cctgaatcgc
+     1261 cagcggcatc agcaccttgt cgccttgcgt ataatatttg cccatggtga aaacgggggc
+     1321 gaagaagttg tccatattgg ccacgtttaa atcaaaactg gtgaaactca cccagggatt
+     1381 ggctgagacg aaaaacatat tctcaataaa ccctttaggg aaataggcca ggttttcacc
+     1441 gtaacacgcc acatcttgcg aatatatgtg tagaaactgc cggaaatcgt cgtggtattc
+     1501 actccagagc gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac aagggtgaac
+     1561 actatcccat atcaccagct caccgtcttt cattgccata cgaaattccg gatgagcatt
+     1621 catcaggcgg gcaagaatgt gaataaaggc cggataaaac ttgtgcttat ttttctttac
+     1681 ggtctttaaa aaggccgtaa tatccagctg aacggtctgg ttataggtac attgagcaac
+     1741 tgactgaaat gcctcaaaat gttctttacg atgccattgg gatatatcaa cggtggtata
+     1801 tccagtgatt tttttctcca ttttagcttc cttagctcct gaaaatctcg ataactcaaa
+     1861 aaatacgccc ggtagtgatc ttatttcatt atggtgaaag ttggaacctc ttacgtgccc
+     1921 gatcaactcg agtgccacct gacgtctaag aaaccattat tatcatgaca ttaacctata
+     1981 aaaataggcg tatcacgagg cagaatttca gataaaaaaa atccttagct ttcgctaagg
+     2041 atgatttctg gaattcctgc tgcggagatc t  
+//

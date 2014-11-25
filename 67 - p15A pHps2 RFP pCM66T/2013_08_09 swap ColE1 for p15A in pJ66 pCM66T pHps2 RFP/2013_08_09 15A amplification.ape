@@ -1,0 +1,64 @@
+LOCUS       2013_08_09_15A_a        1008 bp ds-DNA     linear       09-AUG-2013
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     CDS             complement(79..903)
+                     /label=p15A ori
+                     /ApEinfo_fwdcolor=#666666
+                     /ApEinfo_revcolor=#666666
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     53..73
+                     /label=181-65.7oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1..20
+                     /label=190*-64.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     984..1003
+                     /label=7*-63.5oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(984..1003)
+                     /label=60*-63.5oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    949..979
+                     /label=R for p15A amplification
+                     /ApEinfo_fwdcolor=#6fff5e
+                     /ApEinfo_revcolor=#6fff5e
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 actttctggc tggatgatgg ggcgattcag gcctggtatg agtcagcaac accttcttca
+       61 cgaggcagac ctcagcgcta gcggagtgta tactggctta ctatgttggc actgatgagg
+      121 gtgtcagtga agtgcttcat gtggcaggag aaaaaaggct gcaccggtgc gtcagcagaa
+      181 tatgtgatac aggatatatt ccgcttcctc gctcactgac tcgctacgct cggtcgttcg
+      241 actgcggcga gcggaaatgg cttacgaacg gggcggagat ttcctggaag atgccaggaa
+      301 gatacttaac agggaagtga gagggccgcg gcaaagccgt ttttccatag gctccgcccc
+      361 cctgacaagc atcacgaaat ctgacgctca aatcagtggt ggcgaaaccc gacaggacta
+      421 taaagatacc aggcgtttcc cctggcggct ccctcgtgcg ctctcctgtt cctgcctttc
+      481 ggtttaccgg tgtcattccg ctgttatggc cgcgtttgtc tcattccacg cctgacactc
+      541 agttccgggt aggcagttcg ctccaagctg gactgtatgc acgaaccccc cgttcagtcc
+      601 gaccgctgcg ccttatccgg taactatcgt cttgagtcca acccggaaag acatgcaaaa
+      661 gcaccactgg cagcagccac tggtaattga tttagaggag ttagtcttga agtcatgcgc
+      721 cggttaaggc taaactgaaa ggacaagttt tggtgactgc gctcctccaa gccagttacc
+      781 tcggttcaaa gagttggtag ctcagagaac cttcgaaaaa ccgccctgca aggcggtttt
+      841 ttcgttttca gagcaagaga ttacgcgcag accaaaacga tctcaagaag atcatcttat
+      901 taaggggtct gacgctcagt ggaacgaaaa ctcacgttaa gggattttgg tcatgagatt
+      961 atcaaaaagg atcttcaccc cgtattaccg cctttgagtg agctgata 
+//

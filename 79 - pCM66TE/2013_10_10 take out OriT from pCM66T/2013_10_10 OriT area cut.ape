@@ -1,0 +1,77 @@
+LOCUS       New_DNA                  877 bp ds-DNA     linear       10-OCT-2013
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     oriT            132..870
+                     /note="IncP origin of transfer"
+                     /label=IncP origin of transfer
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     gene            complement(477..593)
+                     /gene="traJ'"
+                     /label=traJ'
+                     /ApEinfo_fwdcolor=#b0f1ff
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     138..159
+                     /label=AP_box1_posI7-oC-F
+                     /ApEinfo_fwdcolor=#660066
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(580..599)
+                     /label=195-66.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     138..158
+                     /label=194-66.6oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(580..599)
+                     /label=195-66.6oC-R(1)
+                     /ApEinfo_label=195-66.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     800..824
+                     /label=240-69.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     522..545
+                     /label=242-70.5oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 attcctgatt tgacccgcct ggtgccttgg tgtccagata atccacctta tcggcaatga
+       61 agtcggtccc gtagaccgtc tggccgtcct tctcgtactt ggtattccga atcttgccct
+      121 gcacgaatac cagctccgcg aagtcgctct tcttgatgga gcgcatgggg acgtgcttgg
+      181 caatcacgcg caccccccgg ccgttttagc ggctaaaaaa gtcatggctc tgccctcggg
+      241 cggaccacgc ccatcatgac cttgccaagc tcgtcctgct tctcttcgat cttcgccagc
+      301 agggcgagga tcgtggcatc accgaaccgc gccgtgcgcg ggtcgtcggt gagccagagt
+      361 ttcagcaggc cgcccaggcg gcccaggtcg ccattgatgc gggccagctc gcggacgtgc
+      421 tcatagtcca cgacgcccgt gattttgtag ccctggccga cggccagcag gtaggcctac
+      481 aggctcatgc cggccgccgc cgccttttcc tcaatcgctc ttcgttcgtc tggaaggcag
+      541 tacaccttga taggtgggct gcccttcctg gttggcttgg tttcatcagc catccgcttg
+      601 ccctcatctg ttacgccggc ggtagccggc cagcctcgca gagcaggatt cccgttgagc
+      661 accgccaggt gcgaataagg gacagtgaag aaggaacacc cgctcgcggg tgggcctact
+      721 tcacctatcc tgcccggctg acgccgttgg atacaccaag gaaagtctac acgaaccctt
+      781 tggcaaaatc ctgtatatcg tgcgaaaaag gatggatata ccgaaaaaat cgctataatg
+      841 accccgaagc agggttatgc agcggaaaag atccgtc  
+//

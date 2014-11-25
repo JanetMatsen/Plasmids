@@ -1,0 +1,47 @@
+LOCUS       fragment_2___Ori         843 bp ds-DNA     circular     15-OCT-2013
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     rep_origin      805..843
+                     /note="colE1"
+                     /label=colE1
+                     /ApEinfo_fwdcolor=#fd8aec
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     rep_origin      1..709
+                     /note="oriV; IncP origin of replication"
+                     /label=oriV; IncP origin of replication
+                     /ApEinfo_fwdcolor=#fd8aec
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(785..804)
+                     /label=241-69.1oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 cctttccgac gctcaccggg ctggttgccc tcgccgctgg gctggcggcc gtctatggcc
+       61 ctgcaaacgc gccagaaacg ccgtcgaagc cgtgtgcgag acaccgcggc cgccggcgtt
+      121 gtggatacct cgcggaaaac ttggccctca ctgacagatg aggggcggac gttgacactt
+      181 gaggggccga ctcacccggc gcggcgttga cagatgaggg gcaggctcga tttcggccgg
+      241 cgacgtggag ctggccagcc tcgcaaatcg gcgaaaacgc ctgattttac gcgagtttcc
+      301 cacagatgat gtggacaagc ctggggataa gtgccctgcg gtattgacac ttgaggggcg
+      361 cgactactga cagatgaggg gcgcgatcct tgacacttga ggggcagagt gctgacagat
+      421 gaggggcgca cctattgaca tttgaggggc tgtccacagg cagaaaatcc agcatttgca
+      481 agggtttccg cccgtttttc ggccaccgct aacctgtctt ttaacctgct tttaaaccaa
+      541 tatttataaa ccttgttttt aaccagggct gcgccctgtg cgcgtgaccg cgcacgccga
+      601 aggggggtgc ccccccttct cgaaccctcc cggcccgcta acgcgggcct cccatccccc
+      661 caggggctgc gcccctcggc cgcgaacggc ctcaccccaa aaatggcagc caagctgacc
+      721 acttctgcgc tcggcccttc cggctggctg gtttattgct gataaatctg gagccggtga
+      781 gcgtgggtct cgcggtatca ttgcgccgga tcaagagcta ccaactcttt ttccgaaggt
+      841 aac     
+//

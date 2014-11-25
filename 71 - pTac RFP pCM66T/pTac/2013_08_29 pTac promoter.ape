@@ -1,0 +1,38 @@
+LOCUS       2013_08_29_pTac_          85 bp ds-DNA     circular     29-AUG-2013
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     purple highlight stops at the bp where transcription starts &
+            matches pTrc annotation in pHC60
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    1..40
+                     /label=pTac in pHC60
+                     /ApEinfo_fwdcolor=#9d52ec
+                     /ApEinfo_revcolor=#9d52ec
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    83..85
+                     /label=start
+                     /ApEinfo_fwdcolor=#03ff04
+                     /ApEinfo_revcolor=#03ff04
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    41..61
+                     /label=lacO repressor site
+                     /ApEinfo_fwdcolor=#7bb6ff
+                     /ApEinfo_revcolor=#7bb6ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    68..71
+                     /label=Shine-Dalgarno
+                     /ApEinfo_fwdcolor=#ffc097
+                     /ApEinfo_revcolor=#ffc097
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 GAGCTGTTGA CAATTAATCA TCGGCTCGTA TAATGTGTGG AATTGTGAGC GGATAACAAT
+       61 TTCACACAGg AAaCAGAATT CTATG   
+//

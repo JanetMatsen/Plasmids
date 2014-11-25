@@ -1,0 +1,25 @@
+LOCUS       2013_09_29_pTac1          61 bp ds-DNA     linear       29-AUG-2013
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     trimmed out the lacO site
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    1..40
+                     /label=pTac in pHC60
+                     /ApEinfo_fwdcolor=#9d52ec
+                     /ApEinfo_revcolor=#9d52ec
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    47..50
+                     /label=Shine-Dalgarno
+                     /ApEinfo_fwdcolor=#ffc097
+                     /ApEinfo_revcolor=#ffc097
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 GAGCTGTTGA CAATTAATCA TCGGCTCGTA TAATGTGTGG TCACACAGgA AaCAGAATTC
+       61 T     
+//

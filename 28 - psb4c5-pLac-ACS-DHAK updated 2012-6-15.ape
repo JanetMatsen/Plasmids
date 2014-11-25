@@ -1,0 +1,386 @@
+LOCUS                  New_DNA        7027 bp ds-DNA   linear       15-JUN-2012
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     source          3973..7027
+                     /organism="BioBrick cloning vector pSB4C5-I52002"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:508435"
+                     /label=source:pSB4C5-I52002
+                     /ApEinfo_revcolor=pink
+     source          1..123
+                     /organism="BioBrick cloning vector pSB4C5-I52002"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:508435"
+                     /label=source:pSB4C5-I52002(1)
+                     /ApEinfo_label=source:pSB4C5-I52002
+                     /ApEinfo_revcolor=pink
+     misc_feature    3986..3997
+                     /note="translational stop sequence for BioBrick
+                     vector-insert insulation, has stop codons in all 6 reading
+                     frames (BBa_B0042)"
+                     /label=translational stop sequence for BioBrick vector-in
+                     /ApEinfo_fwdcolor=#8eff77
+                     /ApEinfo_revcolor=#00aa01
+     terminator      3998..4066
+                     /note="derived from tonB terminator (BBa_B0054); similar
+                     to Escherichia coli strain MG1655 accession U00096"
+                     /label=derived from tonB terminator (BBa_B0054); similar 
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     stem_loop       4008..4039
+                     /note="derived from tonB terminator, predicted using
+                     mFold"
+                     /label=derived from tonB terminator, predicted using mFol
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     terminator      4087..4127
+                     /note="derived from ribosomal RNA rrnC operon, reverse
+                     orientation (BBa_B0062); similar to Escherichia coli
+                     strain MG1655 accession U00096"
+                     /label=derived from ribosomal RNA rrnC operon, reverse or
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     stem_loop       complement(4100..4119)
+                     /note="derived from ribosomal RNA rrnC operon"
+                     /label=derived from ribosomal RNA rrnC operon
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     rep_origin      4135..6171
+                     /note="pSC101 low copy replication origin (BBa_I50042)"
+                     /label=pSC101 low copy replication origin (BBa_I50042)
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     misc_feature    4271..4638
+                     /note="par region"
+                     /label=par region
+                     /ApEinfo_fwdcolor=#8eff77
+                     /ApEinfo_revcolor=#00aa01
+     misc_feature    4769..4851
+                     /note="AT rich region"
+                     /label=AT rich region
+                     /ApEinfo_fwdcolor=#8eff77
+                     /ApEinfo_revcolor=#00aa01
+     gene            4962..5970
+                     /gene="rep101"
+                     /label=rep101
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     -35_signal      4962..4967
+                     /gene="rep101"
+                     /label=rep101(1)
+                     /ApEinfo_label=rep101
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     -10_signal      4984..4989
+                     /gene="rep101"
+                     /label=rep101(2)
+                     /ApEinfo_label=rep101
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     RBS             5004..5016
+                     /gene="rep101"
+                     /label=rep101(3)
+                     /ApEinfo_label=rep101
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     RBS             5013..5018
+                     /gene="rep101"
+                     /label=rep101(4)
+                     /ApEinfo_label=rep101
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     CDS             5020..5970
+                     /gene="rep101"
+                     /note="involved in plasmid replication"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Rep101"
+                     /protein_id="ACB05492.1"
+                     /db_xref="GI:169921159"
+                     /translation="MSELVVFKANELAISRYDLTEHETKLILCCVALLNPTIENPTRK
+                     ERTVSFTYNQYAQMMNISRENAYGVLAKATRELMTRTVEIRNPLVKGFEIFQWTNYAK
+                     FSSEKLELVFSEEILPYLFQLKKFIKYNLEHVKSFENKYSMRIYEWLLKELTQKKTHK
+                     ANIEISLDEFKFMLMLENNYHEFKRLNQWVLKPISKDLNTYSNMKLVVDKRGRPTDTL
+                     IFQVELDRQMDLVTELENNQIKMNGDKIPTTITSDSYLRNGLRKTLHDALTAKIQLTS
+                     FEAKFLSDMQSKHDLNGSFSWLTQKQRTTLENILAKYGRI"
+                     /label=Rep101
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     misc_feature    6180..6948
+                     /note="CAT chloramphenicol resistance marker (BBa_P1004)"
+                     /label=CAT chloramphenicol resistance marker (BBa_P1004)
+                     /ApEinfo_fwdcolor=#8eff77
+                     /ApEinfo_revcolor=#00aa01
+     gene            6286..6945
+                     /gene="cat"
+                     /label=cat
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     CDS             6286..6945
+                     /gene="cat"
+                     /note="confers resistance to chloramphenicol"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="chloramphenicol acetyl transferase"
+                     /protein_id="ACB05491.1"
+                     /db_xref="GI:169921158"
+                     /translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAF
+                     LKTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETF
+                     SSLWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNV
+                     ANMDNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGG
+                     A"
+                     /label=chloramphenicol acetyl transferase
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     terminator      6956..7027
+                     /note="derived from hisI terminator (BBa_B0053); similar
+                     to Escherichia coli strain MG1655 accession U00096"
+                     /label=derived from hisI terminator (BBa_B0053); similar 
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     stem_loop       6964..6998
+                     /note="derived from hisI terminator"
+                     /label=derived from hisI terminator
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     primer_bind     complement(4067..4086)
+                     /note="VR reverse verfication primer annealing site
+                     (BBa_G00102)"
+                     /label=VR
+                     /ApEinfo_fwdcolor=#fffb5f
+                     /ApEinfo_revcolor=#fffe53
+     misc_feature    186..199
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+                     /label=RBS
+                     /ApEinfo_fwdcolor=#00a4a4
+                     /ApEinfo_revcolor=green
+     misc_feature    2194..3951
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+                     /label=DHAK
+                     /ApEinfo_fwdcolor=#88c180
+                     /ApEinfo_revcolor=green
+     misc_feature    2180..2193
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+                     /label=RBS(1)
+                     /ApEinfo_label=RBS
+                     /ApEinfo_fwdcolor=#00a4a4
+                     /ApEinfo_revcolor=green
+     misc_feature    200..2158
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+                     /label=ACS
+                     /ApEinfo_fwdcolor=#bdd9c5
+                     /ApEinfo_revcolor=green
+     misc_feature    124..145
+                     /note="BioBrick cloning site prefix (BBa_G00000)"
+                     /label=BioBrick cloning site prefix (BBa_G00000)
+                     /ApEinfo_fwdcolor=#9eedd5
+                     /ApEinfo_revcolor=#ceeec8
+     misc_feature    146..185
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+                     /label=pP-lac
+                     /ApEinfo_fwdcolor=#ffffc1
+                     /ApEinfo_revcolor=green
+     source          3952..3972
+                     /organism="BioBrick cloning vector pSB4C5-I52002"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:508435"
+                     /label=source:BioBrick cloning vector pSB4C5-I52002
+                     /ApEinfo_fwdcolor=#ffffff
+                     /ApEinfo_revcolor=pink
+     misc_feature    124..145
+                     /label=Prefix
+                     /ApEinfo_fwdcolor=#9eedd5
+                     /ApEinfo_revcolor=#ceeec8
+     source          124..145
+                     /organism="BioBrick cloning vector pSB4C5-I52002"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:508435"
+                     /label=source:BioBrick cloning vector pSB4C5-I52002(1)
+                     /ApEinfo_label=source:BioBrick cloning vector
+                     pSB4C5-I52002
+                     /ApEinfo_fwdcolor=#ffffff
+                     /ApEinfo_revcolor=pink
+     misc_feature    124..129
+                     /label=EcoRI
+                     /ApEinfo_fwdcolor=#56caff
+                     /ApEinfo_revcolor=#a1e3ff
+     misc_feature    3952..3972
+                     /note="BioBrick cloning site suffix (BBa_G00001)"
+                     /label=BioBrick cloning site suffix (BBa_G00001)
+                     /ApEinfo_fwdcolor=#9eedd5
+                     /ApEinfo_revcolor=#ceeec8
+     misc_feature    139..144
+                     /label=XbaI
+                     /ApEinfo_fwdcolor=#79b6ff
+                     /ApEinfo_revcolor=#bacbff
+     terminator      21..98
+                     /note="derived from bacteriophage T3 terminator, reverse
+                     orientation (BBa_B0055); similar to bacteriophage T3 gene
+                     1 to gene 11 (accession number X17255)"
+                     /label=derived from bacteriophage T3 terminator, reverse 
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     stem_loop       complement(56..77)
+                     /note="derived from bacteriophage T3 terminator"
+                     /label=derived from bacteriophage T3 terminator
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     misc_feature    99..110
+                     /note="translational stop sequence for BioBrick
+                     vector-insert insulation, has stop codons in all 6 reading
+                     frames (BBa_B0042)"
+                     /label=translational stop sequence for BioBrick
+                     vector-in(1)
+                     /ApEinfo_label=translational stop sequence for BioBrick
+                     vector-in
+                     /ApEinfo_fwdcolor=#8eff77
+                     /ApEinfo_revcolor=#00aa01
+     primer_bind     1..20
+                     /note="VF2 forward verification primer annealing site
+                     (BBa_G00100)"
+                     /label=VF2
+                     /ApEinfo_fwdcolor=#feff70
+                     /ApEinfo_revcolor=pink
+     misc_feature    3953..3958
+                     /label=SpeI
+                     /ApEinfo_fwdcolor=#8cd282
+                     /ApEinfo_revcolor=#83ed79
+     misc_feature    3967..3972
+                     /label=PstI
+                     /ApEinfo_fwdcolor=#6ce6b2
+                     /ApEinfo_revcolor=#6ef086
+     misc_feature    3952..3972
+                     /label=Suffix
+                     /ApEinfo_fwdcolor=#eac5ff
+                     /ApEinfo_revcolor=#e3a0ff
+ORIGIN
+        1 tgccacctga cgtctaagaa aaggaatatt cagcaatttg cccgtgccga agaaaggccc
+       61 acccgtgaag gtgagccagt gagttgattg ctacgtaatt agttagttag cccttagtga
+      121 ctcgaattcg cggccgcttc tagagGGCTT TACACTTTAT GCTTCCGGCT CGTATGTTGT
+      181 GTGGAAGGAG GTAAAAAAAA TGAGCCAGAT CCACAAGCAT ACCATCCCGG CAAACATCGC
+      241 GGACCGTTGC CTTATCAATC CGCAACAATA TGAGGCTATG TACCAACAAA GCATTAACGT
+      301 TCCGGACACT TTTTGGGGTG AGCAGGGTAA GATTCTGGAT TGGATCAAAC CGTATCAAAA
+      361 GGTAAAGAAT ACGAGCTTTG CTCCGGGTAA CGTAAGCATC AAGTGGTATG AGGACGGTAC
+      421 CTTGAATCTG GCAGCAAATT GTCTGGACCG CCACTTACAA GAGAACGGCG ACCGCACCGC
+      481 GATTATCTGG GAAGGTGATG ACGCAAGCCA ATCCAAACAT ATCTCTTACA AAGAGCTGCA
+      541 CCGTGATGTG TGCCGCTTTG CGAACACCCT GCTGGAGTTG GGTATTAAAA AGGGTGACGT
+      601 GGTGGCGATC TACATGCCGA TGGTCCCGGA GGCCGCAGTC GCAATGCTGG CATGTGCACG
+      661 TATTGGTGCC GTGCATAGCG TCATCTTCGG TGGTTTTAGC CCGGAGGCGG TTGCAGGTCG
+      721 CATCATTGAT TCTAACTCGC GTCTGGTCAT TACCAGCGAC GAAGGTGTCC GTGCGGGTCG
+      781 TAGCATTCCG CTGAAGAAAA ACGTTGATGA CGCTCTGAAG AACCCGAATG TGACGTCGGT
+      841 GGAACACGTC GTGGTTTTGA AGCGTACGGG TGGCAAAATC GATTGGCAAG AGGGTCGCGA
+      901 TCTGTGGTGG CATGACCTGG TTGAACAGGC GTCCGATCAA CACCAGGCCG AAGAAATGAA
+      961 TGCGGAAGAT CCGCTGTTCA TTTTGTACAC GAGCGGCAGC ACCGGTAAGC CGAAAGGTGT
+     1021 ACTGCATACG ACCGGTGGTT ACTTGGTTTA TGCCGCGCTG ACCTTCAAGT ACGTGTTTGA
+     1081 CTATCACCCG GGCGACATCT ACTGGTGCAC CGCGGACGTG GGTTGGGTTA CCGGCCACAG
+     1141 CTACCTGCTG TATGGTCCTT TGGCGTGCGG TGCGACGACG CTGATGTTTG AAGGCGTCCC
+     1201 TAATTGGCCG ACCCCGGCAC GTATGGCACA GGTGGTCGAT AAACATCAGG TGAATATTCT
+     1261 GTACACCGCA CCGACCGCGA TCCGTGCTCT GATGGCGGAG GGCGATAAAG CTATCGAGGG
+     1321 TACGGATCGT TCCAGCCTGC GTATTCTGGG CAGCGTTGGC GAGCCTATCA ACCCGGAAGC
+     1381 CTGGGAGTGG TACTGGAAGA AAATCGGTAA CGAGAAATGC CCGGTTGTTG ACACCTGGTG
+     1441 GCAAACCGAA ACTGGTGGTT TCATGATCAC GCCGCTGCCG GGTGCTACCG AGTTGAAAGC
+     1501 GGGCTCTGCA ACGCGTCCAT TCTTTGGTGT GCAGCCGGCG TTGGTGGACA ATGAAGGTAA
+     1561 TCCGCTGGAA GGTGCAACCG AAGGCAGCTT GGTTATCACG GACAGCTGGC CGGGTCAAGC
+     1621 CCGTACGTTG TTCGGTGACC ATGAACGCTT CGAACAGACC TACTTTAGCA CGTTTAAGAA
+     1681 TATGTACTTC TCCGGCGATG GTGCGCGTCG TGACGAGGAC GGTTACTACT GGATTACGGG
+     1741 TCGTGTCGAT GACGTTCTGA ACGTGAGCGG CCACCGTCTG GGTACTGCCG AGATTGAGTC
+     1801 TGCGCTGGTC GCACACCCGA AAATCGCCGA AGCAGCGGTT GTTGGTATCC CACATAATAT
+     1861 CAAAGGCCAA GCGATCTACG CCTATGTAAC CCTGAATCAC GGTGAAGAAC CGAGCCCTGA
+     1921 GTTGTATGCA GAGGTCCGCA ATTGGGTTCG TAAAGAAATT GGCCCGTTGG CGACTCCGGA
+     1981 TGTGTTGCAT TGGACCGACA GCCTGCCGAA AACCCGTTCG GGTAAAATTA TGCGTCGTAT
+     2041 CCTGCGTAAA ATCGCAGCCG GTGATACCTC CAATCTGGGC GACACCTCGA CCTTGGCGGA
+     2101 TCCGGGTGTC GTTGAAAAAC TGCTGGAAGA GAAGCAAGCA ATCGCAATGC CGAGCTAATA
+     2161 ACACTGTATA ACATTAAGAA GGAGGTAAAA AAAATGAGCG CTAAAAGCTT CGAAGTTACC
+     2221 GACCCGGTCA ATTCCAGCTT AAAGGGTTTT GCGCTGGCGA ACCCGAGCAT CACCCTGGTG
+     2281 CCGGAAGAAA AGATTCTGTT CCGTAAAACC GATTCTGATA AGATCGCACT GATTAGCGGT
+     2341 GGTGGCAGCG GCCATGAACC GACCCATGCC GGTTTCATCG GTAAGGGTAT GCTCAGCGGC
+     2401 GCAGTGGTTG GTGAAATCTT CGCGTCCCCG TCGACGAAAC AGATCCTGAA TGCGATTCGT
+     2461 CTGGTGAATG AAAACGCGAG CGGCGTACTG CTGATCGTCA AAAACTACAC GGGCGATGTG
+     2521 CTGCACTTTG GTCTGTCCGC AGAACGTGCT CGCGCGCTGG GCATCAATTG TCGTGTGGCG
+     2581 GTTATCGGTG ATGATGTTGC CGTGGGCCGT GAAAAAGGCG GCATGGTCGG TCGCCGTGCG
+     2641 CTGGCTGGCA CCGTGCTGGT GCATAAGATT GTCGGCGCAT TTGCCGAAGA ATACAGCAGC
+     2701 AAGTATGGTC TGGATGGCAC TGCTAAAGTG GCGAAAATCA TTAACGATAA CTTGGTGACT
+     2761 ATCGGTAGCA GCTTGGACCA CTGCAAAGTG CCGGGCCGCA AATTCGAGAG CGAACTGAAT
+     2821 GAGAAGCAGA TGGAACTGGG TATGGGCATC CACAACGAGC CTGGTGTGAA AGTCCTGGAT
+     2881 CCTATCCCAA GCACCGAAGA TCTCATTAGC AAATATATGC TGCCGAAGCT GCTGGACCCA
+     2941 AATGATAAGG ACCGTGCATT TGTTAAGTTT GACGAGGACG ACGAGGTTGT TCTGCTCGTC
+     3001 AACAACCTGG GTGGTGTTAG CAACTTTGTT ATCAGCAGCA TTACCAGCAA GACCACCGAC
+     3061 TTTTTGAAAG AAAACTACAA TATTACTCCG GTTCAGACCA TTGCGGGTAC CCTGATGACC
+     3121 AGCTTCAACG GTAATGGCTT CAGCATTACG CTGCTGAATG CCACCAAGGC GACCAAGGCG
+     3181 CTGCAAAGCG ATTTCGAAGA GATCAAAAGC GTGCTGGATC TGCTGAATGC GTTCACCAAC
+     3241 GCTCCGGGCT GGCCGATCGC GGACTTCGAG AAGACTTCTG CACCGAGCGT TAACGATGAT
+     3301 CTGTTGCACA ACGAGGTGAC CGCCAAGGCG GTCGGTACGT ATGATTTTGA TAAGTTTGCC
+     3361 GAGTGGATGA AGAGCGGTGC GGAGCAGGTC ATTAAGAGCG AGCCGCACAT TACCGAGCTG
+     3421 GATAACCAGG TGGGTGATGG TGATTGTGGC TACACGTTGG TCGCAGGCGT TAAGGGCATC
+     3481 ACGGAGAACC TGGACAAGCT GAGCAAGGAT AGCCTGAGCC AAGCGGTCGC ACAGATTAGC
+     3541 GATTTCATCG AGGGCTCAAT GGGTGGCACT TCCGGTGGCC TGTACTCCAT TCTGCTGAGC
+     3601 GGCTTCAGCC ACGGTCTGAT TCAGGTGTGC AAAAGCAAGG ATGAACCAGT TACGAAAGAG
+     3661 ATCGTTGCAA AGAGCCTGGG TATTGCGCTG GACACGCTGT ACAAGTATAC TAAAGCGCGC
+     3721 AAGGGTAGCA GCACGATGAT TGACGCACTG GAGCCGTTCG TCAAAGAGTT CACTGCATCT
+     3781 AAGGACTTTA ACAAAGCTGT GAAGGCGGCG GAAGAAGGCG CGAAATCGAC GGCCACGTTT
+     3841 GAGGCGAAGT TTGGCCGTGC AAGCTATGTG GGTGATTCTT CCCAGGTCGA GGACCCGGGC
+     3901 GCGGTAGGTT TGTGCGAGTT CCTGAAGGGC GTTCAGAGCG CGCTGTGATA Atactagtag
+     3961 cggccgctgc aggagtcact aagggttagt tagttagatt agcagaaagt caaaagcctc
+     4021 cgaccggagg cttttgacta aaacttccct tggggttatc attggggctc actcaaaggc
+     4081 ggtaatcaga taaaaaaaat ccttagcttt cgctaaggat gatttctgct agagctgtca
+     4141 gaccaagttt acgagctcgc ttggactcct gttgatagat ccagtaatga cctcagaact
+     4201 ccatctggat ttgttcagaa cgctcggttg ccgccgggcg ttttttattg gtgagaatcc
+     4261 aagcactagg gacagtaaga cgggtaagcc tgttgatgat accgctgcct tactgggtgc
+     4321 attagccagt ctgaatgacc tgtcacggga taatccgaag tggtcagact ggaaaatcag
+     4381 agggcaggaa ctgctgaaca gcaaaaagtc agatagcacc acatagcaga cccgccataa
+     4441 aacgccctga gaagcccgtg acgggctttt cttgtattat gggtagtttc cttgcatgaa
+     4501 tccataaaag gcgcctgtag tgccatttac ccccattcac tgccagagcc gtgagcgcag
+     4561 cgaactgaat gtcacgaaaa agacagcgac tcaggtgcct gatggtcgga gacaaaagga
+     4621 atattcagcg atttgcccga gcttgcgagg gtgctactta agcctttagg gttttaaggt
+     4681 ctgttttgta gaggagcaaa cagcgtttgc gacatccttt tgtaatactg cggaactgac
+     4741 taaagtagtg agttatacac agggctggga tctattcttt ttatcttttt ttattctttc
+     4801 tttattctat aaattataac cacttgaata taaacaaaaa aaacacacaa aggtctagcg
+     4861 gaatttacag agggtctagc agaatttaca agttttccag caaaggtcta gcagaattta
+     4921 cagataccca caactcaaag gaaaaggaca tgtaattatc attgactagc ccatctcaat
+     4981 tggtatagtg attaaaatca cctagaccaa ttgagatgta tgtctgaatt agttgttttc
+     5041 aaagcaaatg aactagcgat tagtcgctat gacttaacgg agcatgaaac caagctaatt
+     5101 ttatgctgtg tggcactact caaccccacg attgaaaacc ctacaaggaa agaacggacg
+     5161 gtatcgttca cttataacca atacgctcag atgatgaaca tcagtaggga aaatgcttat
+     5221 ggtgtattag ctaaagcaac cagagagctg atgacgagaa ctgtggaaat caggaatcct
+     5281 ttggttaaag gctttgagat tttccagtgg acaaactatg ccaagttctc aagcgaaaaa
+     5341 ttagaattag tttttagtga agagatattg ccttatcttt tccagttaaa aaaattcata
+     5401 aaatataatc tggaacatgt taagtctttt gaaaacaaat actctatgag gatttatgag
+     5461 tggttattaa aagaactaac acaaaagaaa actcacaagg caaatataga gattagcctt
+     5521 gatgaattta agttcatgtt aatgcttgaa aataactacc atgagtttaa aaggcttaac
+     5581 caatgggttt tgaaaccaat aagtaaagat ttaaacactt acagcaatat gaaattggtg
+     5641 gttgataagc gaggccgccc gactgatacg ttgattttcc aagttgaact agatagacaa
+     5701 atggatctcg taaccgaact tgagaacaac cagataaaaa tgaatggtga caaaatacca
+     5761 acaaccatta catcagattc ctacctacgt aacggactaa gaaaaacact acacgatgct
+     5821 ttaactgcaa aaattcagct caccagtttt gaggcaaaat ttttgagtga catgcaaagt
+     5881 aagcatgatc tcaatggttc gttctcatgg ctcacgcaaa aacaacgaac cacactagag
+     5941 aacatactgg ctaaatacgg aaggatctga ggttcttatg gctcttgtat ctatcagtga
+     6001 agcatcaaga ctaacaaaca aaagtagaac aactgttcac cgttagatat caaagggaaa
+     6061 actgtccata tgcacagatg aaaacggtgt aaaaaagata gatacatcag agcttttacg
+     6121 agtttttggt gcatttaaag ctgttcacca tgaacagatc gacaatgtaa ctactagagg
+     6181 ttgatcgggc acgtaagagg ttccaacttt caccataatg aaataagatc actaccgggc
+     6241 gtattttttg agttatcgag attttcagga gctaaggaag ctaaaatgga gaaaaaaatc
+     6301 acgggatata ccaccgttga tatatcccaa tggcatcgta aagaacattt tgaggcattt
+     6361 cagtcagttg ctcaatgtac ctataaccag accgttcagc tggatattac ggccttttta
+     6421 aagaccgtaa agaaaaataa gcacaagttt tatccggcct ttattcacat tcttgcccgc
+     6481 ctgatgaacg ctcacccgga gtttcgtatg gccatgaaag acggtgagct ggtgatctgg
+     6541 gatagtgttc acccttgtta caccgttttc catgagcaaa ctgaaacgtt ttcgtccctc
+     6601 tggagtgaat accacgacga tttccggcag tttctccaca tatattcgca agatgtggcg
+     6661 tgttacggtg aaaacctggc ctatttccct aaagggttta ttgagaatat gttttttgtc
+     6721 tcagccaatc cctgggtgag tttcaccagt tttgatttaa acgtggccaa tatggacaac
+     6781 ttcttcgccc ccgttttcac gatgggcaaa tattatacgc aaggcgacaa ggtgctgatg
+     6841 ccgctggcga tccaggttca tcatgccgtt tgtgatggct tccatgtcgg ccgcatgctt
+     6901 aatgaattac aacagtactg tgatgagtgg cagggcgggg cgtaataata ctagctccgg
+     6961 caaaaaaacg ggcaaggtgt caccaccctg ccctttttct ttaaaaccga aaagattact
+     7021 tcgcgtt     
+//

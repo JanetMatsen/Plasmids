@@ -1,0 +1,94 @@
+LOCUS       New_DNA                 1455 bp ds-DNA     linear       23-APR-2014
+DEFINITION  .
+ACCESSION   urn.local...1350583095764.50
+VERSION     urn.local...1350583095764.50
+KEYWORDS    .
+SOURCE      
+  ORGANISM   .
+COMMENT     2014_04_23 pTrc His2C PduP from salmonella from 388 to 4275
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    30..30
+                     /note="Geneious type: Editing History Insertion" /label
+                     /label=ColE origin
+                     /ApEinfo_fwdcolor=#c0c0c0
+                     /ApEinfo_revcolor=#ed296d
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1439..1444
+                     /note="Geneious type: polylinker"
+                     /label=RBS2
+                     /ApEinfo_fwdcolor=#c0c0c0
+                     /ApEinfo_revcolor=#ed296d
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2..29
+                     /label=trc-NcoI-F Homology
+                     /ApEinfo_fwdcolor=#c0c0c0
+                     /ApEinfo_revcolor=#ed296d
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    6..28
+                     /label=RBS3alt
+                     /ApEinfo_fwdcolor=#c0c0c0
+                     /ApEinfo_revcolor=#ed296d
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    12..18
+                     /label=RBS
+                     /ApEinfo_fwdcolor=#c0c0c0
+                     /ApEinfo_revcolor=#ed296d
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    24..29
+                     /label=NcoI Adam used to linearize
+                     /ApEinfo_fwdcolor=#ff0080
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1..25)
+                     /label=252-70.2oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1..25)
+                     /label=257-70.2oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    32..1420
+                     /label=PduP from salmonella 14028s
+                     /ApEinfo_fwdcolor=#9283fe
+                     /ApEinfo_revcolor=#9283fe
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 tcgattaaat aaggaggaat aaaccatggg aaatacttct gaactcgaaa ccctgattcg
+       61 caccattctt agcgagcaat taaccacgcc ggcgcaaacg ccggtccagc ctcagggcaa
+      121 agggattttc cagtccgtga gcgaggccat cgacgccgcg caccaggcgt tcttacgtta
+      181 tcagcagtgc ccgctaaaaa cccgcagcgc cattatcagc gcgatgcgtc aggagctgac
+      241 gccgctgctg gcgcccctgg cggaagagag cgccaatgaa acggggatgg gcaacaaaga
+      301 agataaattt ctcaaaaaca aggctgcgct ggacaacacg ccgggcgtag aagatctcac
+      361 caccaccgcg ctgaccggcg acggcggcat ggtgctgttt gaatactcac cgtttggcgt
+      421 tatcggttcg gtcgccccaa gcaccaaccc gacggaaacc atcatcaaca acagtatcag
+      481 catgctggcg gcgggcaaca gtatctactt tagcccgcat ccgggagcga aaaaggtctc
+      541 tctgaagctg attagcctga ttgaagagat tgccttccgc tgctgcggca tccgcaatct
+      601 ggtggtgacc gtggcggaac ccaccttcga agcgacccag cagatgatgg cccacccgcg
+      661 aatcgcagta ctggccatta ccggcggccc gggcattgtg gcaatgggca tgaagagcgg
+      721 taagaaggtg attggcgctg gcgcgggtaa cccgccctgc atcgttgatg aaacggcgga
+      781 cctggtgaaa gcggcggaag atatcatcaa cggcgcgtca ttcgattaca acctgccctg
+      841 cattgccgag aagagcctga tcgtagtgga gagtgtcgcc gaacgtctgg tgcagcaaat
+      901 gcaaaccttc ggcgcgctgc tgttaagccc tgccgatacc gacaaactcc gcgccgtctg
+      961 cctgcctgaa ggccaggcga ataaaaaact ggtcggcaag agcccatcgg ccatgctgga
+     1021 agccgccggg atcgctgtcc ctgcaaaagc gccgcgtctg ctgattgcgc tggttaacgc
+     1081 tgacgatccg tgggtcacca gcgaacagtt gatgccgatg ctgccagtgg taaaagtcag
+     1141 cgatttcgat agcgcgctgg cgctggccct gaaggttgaa gaggggctgc atcataccgc
+     1201 cattatgcac tcgcagaacg tgtcacgcct gaacctcgcg gcccgcacgc tgcaaacctc
+     1261 gatattcgtc aaaaacggcc cctcttatgc cgggatcggc gtcggcggcg aaggctttac
+     1321 caccttcact atcgccacac caaccggtga agggaccacg tcagcgcgta cttttgcccg
+     1381 ttcccggcgc tgcgtactga ccaacggctt ttctattcgc caccaccacc accaccacta
+     1441 ataaggtacc atatg    
+//

@@ -1,0 +1,774 @@
+LOCUS       69___pLac_pHps1_        9160 bp ds-DNA     circular     21-NOV-2013
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:0
+FEATURES             Location/Qualifiers
+     gene            complement(68..1216)
+                     /gene="trfA"
+                     /label=trfA
+                     /ApEinfo_fwdcolor=#b0f1ff
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    6624..8003
+                     /label=new ADH 3K9D XhoI at end
+                     /ApEinfo_fwdcolor=#aa03d3
+                     /ApEinfo_revcolor=#a005e2
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     rep_origin      2147..2855
+                     /note="oriV; IncP origin of replication"
+                     /label=oriV; IncP origin of replication
+                     /ApEinfo_fwdcolor=#fd8aec
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     stop            8004..8009
+                     /created_by="User"
+                     /modified_by="User"
+                     /label=stop codons
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     gene            complement(1743..1859)
+                     /gene="traJ'"
+                     /label=traJ'
+                     /ApEinfo_fwdcolor=#b0f1ff
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    6374..6623
+                     /label=corrected Hps2 promoter region
+                     /ApEinfo_fwdcolor=#c043ff
+                     /ApEinfo_revcolor=#000000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     stop            6368..6370
+                     /created_by="User"
+                     /modified_by="User"
+                     /label=stop
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     oriT            1398..2136
+                     /note="IncP origin of transfer"
+                     /label=IncP origin of transfer
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(8108..8126)
+                     /label=158-65.9oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     promoter        4160..4215
+                     /note="Plac; lac operon promoter/operator"
+                     /label=Plac; lac operon promoter/operator
+                     /ApEinfo_fwdcolor=#00e171
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    4412..4815
+                     /label=ACS
+                     /ApEinfo_fwdcolor=#5b5bff
+                     /ApEinfo_revcolor=#5e5eff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     rep_origin      3323..3878
+                     /note="colE1"
+                     /label=colE1
+                     /ApEinfo_fwdcolor=#fd8aec
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     stop            6371..6373
+                     /created_by="User"
+                     /modified_by="User"
+                     /label=stop(1)
+                     /ApEinfo_label=stop
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    4816..6367
+                     /label=ACS(1)
+                     /ApEinfo_label=ACS
+                     /ApEinfo_fwdcolor=#5b5bff
+                     /ApEinfo_revcolor=#5e5eff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    4235..4411
+                     /label=HPS promoter region
+                     /ApEinfo_fwdcolor=#00dddd
+                     /ApEinfo_revcolor=#00cccc
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     gene            complement(8127..8942)
+                     /gene="kan"
+                     /label=kan
+                     /ApEinfo_fwdcolor=#b0f1ff
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    4232..4232
+                     /label=insertion of extra C p42 10-223680804 - carried fro
+                     /ApEinfo_fwdcolor=#ff252b
+                     /ApEinfo_revcolor=#ff252b
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3932..3955
+                     /label=238-NAoC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3936..3955
+                     /label=7*-63.5oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4689..4708)
+                     /label=14-67.39oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     6076..6093
+                     /label=15-65.81oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4816..4834
+                     /label=21-66.95oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     5412..5429
+                     /label=22-69.9oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4058..4079
+                     /label=42-65.79oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3936..3955)
+                     /label=60*-63.5oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4453..4472)
+                     /label=63-63.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4559..4579
+                     /label=74-56.99oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(6718..6740)
+                     /label=103-63.5oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     7222..7240
+                     /label=104-64oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     7854..7871
+                     /label=105-64oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4096..4111)
+                     /label=112-64.4oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4093..4111)
+                     /label=113-68.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     7190..7210
+                     /label=117-64oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4897..4915)
+                     /label=137-66.82oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     373..391
+                     /label=160-65.4oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(486..505)
+                     /label=161-67.5oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(415..432)
+                     /label=164-66.7oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     6337..6356
+                     /label=166-64.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4198..4220
+                     /label=167-65.1oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     8920..8940
+                     /label=180-64.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     6836..6857
+                     /label=183-67.6oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4267..4286
+                     /label=186-63.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4234..4264
+                     /label=188-69.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(7989..8010)
+                     /label=189-70.1oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(8893..8911)
+                     /label=192-66.8oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     8228..8249
+                     /label=193-66.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1404..1424
+                     /label=194-66.6oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1846..1865)
+                     /label=195-66.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(8106..8126)
+                     /label=212-69.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     18..39
+                     /label=213-68.9oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(6351..6373)
+                     /label=216-68.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     6624..6648
+                     /label=217-70.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     9121..9144
+                     /label=222-70.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3078..3105
+                     /label=224-59.5oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     8070..8089
+                     /label=226-70.7oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4139..4159
+                     /label=233-70.1oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4139..4159)
+                     /label=234-70.1oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3932..3955
+                     /label=238-70.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2066..2090
+                     /label=240-69.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(2931..2950)
+                     /label=241-69.1oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1788..1811
+                     /label=242-70.5oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4092..4112)
+                     /label=251-70.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     8010..8028
+                     /label=256-69.7oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4057..4079
+                     /label=261-69.6oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2147..2164
+                     /label=263-69.6oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3323..3347
+                     /label=265-70.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1218..1236
+                     /label=267-70.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2646..2664
+                     /label=268-70.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3441..3461)
+                     /label=269-69.3oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     8839..8858
+                     /label=AP-017 NAoC-F
+                     /ApEinfo_fwdcolor=#660066
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4139..4159)
+                     /label=AP-018 NAoC-R
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#333300
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(8814..8858)
+                     /label=AP-022 NAoC-R
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#333300
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4120..4147)
+                     /label=AP-24 NAoC-R
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#333300
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     8994..9029
+                     /label=AP-27 NAoC-F
+                     /ApEinfo_fwdcolor=#660066
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3003..3024)
+                     /label=AP-31 NAoC-R
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#333300
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3936..3955
+                     /label=VR 56oC-R
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#333300
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1404..1425
+                     /label=AP-36 NAoC-F
+                     /ApEinfo_fwdcolor=#660066
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3058..3077)
+                     /label=AP-55 NAoC-F
+                     /ApEinfo_fwdcolor=#660066
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3078..3105
+                     /label=AP-56 NAoC-R
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#333300
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     8951..8976
+                     /label=AP-65 NAoC-R
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#333300
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3941..3960)
+                     /label=AP-100 NAoC-F
+                     /ApEinfo_fwdcolor=#660066
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3941..3960)
+                     /label=AP-130 NAoC-R
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#333300
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(2530..2549)
+                     /label=AP-137 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(8417..8436)
+                     /label=AP-139 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3323..3363
+                     /label=AP-143 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(2843..2862)
+                     /label=AP-144 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2856..2875
+                     /label=AP-149 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(2127..2146)
+                     /label=AP-150 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1394..1414
+                     /label=AP-169 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1196..1217)
+                     /label=AP-170 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2475..2494
+                     /label=AP-173 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(801..820)
+                     /label=AP-182 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     791..810
+                     /label=AP-183 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2643..2662
+                     /label=AP-185 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3072..3097
+                     /label=AP-187 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4106..4125
+                     /label=AP-194 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4106..4125
+                     /label=AP-198 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1416..1435
+                     /label=AP-207 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1375..1394)
+                     /label=AP-208 NAoC-
+                     /ApEinfo_fwdcolor=#333300
+                     /ApEinfo_revcolor=#000066
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 cttgttcctg aaatgccagt aaagcgctgg ctgctgaacc cccagccgga actgacccca
+       61 caaggcccta gcgtttgcaa tgcaccaggt catcattgac ccaggcgtgt tccaccaggc
+      121 cgctgcctcg caactcttcg caggcttcgc cgacctgctc gcgccacttc ttcacgcggg
+      181 tggaatccga tccgcacatg aggcggaagg tttccagctt gagcgggtac ggctcccggt
+      241 gcgagctgaa atagtcgaac atccgtcggg ccgtcggcga cagcttgcgg tacttctccc
+      301 atatgaattt cgtgtagtgg tcgccagcaa acagcacgac gatttcctcg tcgatcagga
+      361 cctggcaacg ggacgttttc ttgccacggt ccaggacgcg gaagcggtgc agcagcgaca
+      421 ccgattccag gtgcccaacg cggtcggacg tgaagcccat cgccgtcgcc tgtaggcgcg
+      481 acaggcattc ctcggccttc gtgtaatacc ggccattgat cgaccagccc aggtcctggc
+      541 aaagctcgta gaacgtgaag gtgatcggct cgccgatagg ggtgcgcttc gcgtactcca
+      601 acacctgctg ccacaccagt tcgtcatcgt cggcccgcag ctcgacgccg gtgtaggtga
+      661 tcttcacgtc cttgttgacg tggaaaatga ccttgttttg cagcgcctcg cgcgggattt
+      721 tcttgttgcg cgtggtgaac agggcagagc gggccgtgtc gtttggcatc gctcgcatcg
+      781 tgtccggcca cggcgcaata tcgaacaagg aaagctgcat ttccttgatc tgctgcttcg
+      841 tgtgtttcag caacgcggcc tgcttggcct cgctgacctg ttttgccagg tcctcgccgg
+      901 cggtttttcg cttcttggtc gtcatagttc ctcgcgtgtc gatggtcatc gacttcgcca
+      961 aacctgccgc ctcctgttcg agacgacgcg aacgctccac ggcggccgat ggcgcgggca
+     1021 gggcaggggg agccagttgc acgctgtcgc gctcgatctt ggccgtagct tgctggacca
+     1081 tcgagccgac ggactggaag gtttcgcggg gcgcacgcat gacggtgcgg cttgcgatgg
+     1141 tttcggcatc ctcggcggaa aaccccgcgt cgatcagttc ttgcctgtat gccttccggt
+     1201 caaacgtccg attcattcac cctccttgcg ggattgcccc gactcacgcc ggggcaatgt
+     1261 gcccttattc ctgatttgac ccgcctggtg ccttggtgtc cagataatcc accttatcgg
+     1321 caatgaagtc ggtcccgtag accgtctggc cgtccttctc gtacttggta ttccgaatct
+     1381 tgccctgcac gaataccagc tccgcgaagt cgctcttctt gatggagcgc atggggacgt
+     1441 gcttggcaat cacgcgcacc ccccggccgt tttagcggct aaaaaagtca tggctctgcc
+     1501 ctcgggcgga ccacgcccat catgaccttg ccaagctcgt cctgcttctc ttcgatcttc
+     1561 gccagcaggg cgaggatcgt ggcatcaccg aaccgcgccg tgcgcgggtc gtcggtgagc
+     1621 cagagtttca gcaggccgcc caggcggccc aggtcgccat tgatgcgggc cagctcgcgg
+     1681 acgtgctcat agtccacgac gcccgtgatt ttgtagccct ggccgacggc cagcaggtag
+     1741 gcctacaggc tcatgccggc cgccgccgcc ttttcctcaa tcgctcttcg ttcgtctgga
+     1801 aggcagtaca ccttgatagg tgggctgccc ttcctggttg gcttggtttc atcagccatc
+     1861 cgcttgccct catctgttac gccggcggta gccggccagc ctcgcagagc aggattcccg
+     1921 ttgagcaccg ccaggtgcga ataagggaca gtgaagaagg aacacccgct cgcgggtggg
+     1981 cctacttcac ctatcctgcc cggctgacgc cgttggatac accaaggaaa gtctacacga
+     2041 accctttggc aaaatcctgt atatcgtgcg aaaaaggatg gatataccga aaaaatcgct
+     2101 ataatgaccc cgaagcaggg ttatgcagcg gaaaagatcc gtcgaccctt tccgacgctc
+     2161 accgggctgg ttgccctcgc cgctgggctg gcggccgtct atggccctgc aaacgcgcca
+     2221 gaaacgccgt cgaagccgtg tgcgagacac cgcggccgcc ggcgttgtgg atacctcgcg
+     2281 gaaaacttgg ccctcactga cagatgaggg gcggacgttg acacttgagg ggccgactca
+     2341 cccggcgcgg cgttgacaga tgaggggcag gctcgatttc ggccggcgac gtggagctgg
+     2401 ccagcctcgc aaatcggcga aaacgcctga ttttacgcga gtttcccaca gatgatgtgg
+     2461 acaagcctgg ggataagtgc cctgcggtat tgacacttga ggggcgcgac tactgacaga
+     2521 tgaggggcgc gatccttgac acttgagggg cagagtgctg acagatgagg ggcgcaccta
+     2581 ttgacatttg aggggctgtc cacaggcaga aaatccagca tttgcaaggg tttccgcccg
+     2641 tttttcggcc accgctaacc tgtcttttaa cctgctttta aaccaatatt tataaacctt
+     2701 gtttttaacc agggctgcgc cctgtgcgcg tgaccgcgca cgccgaaggg gggtgccccc
+     2761 ccttctcgaa ccctcccggc ccgctaacgc gggcctccca tccccccagg ggctgcgccc
+     2821 ctcggccgcg aacggcctca ccccaaaaat ggcagccaag ctgaccactt ctgcgctcgg
+     2881 cccttccggc tggctggttt attgctgata aatctggagc cggtgagcgt gggtctcgcg
+     2941 gtatcattgc agcactgggg ccagatggta agccctcccg tatcgtagtt atctacacga
+     3001 cggggagtca ggcaactatg gatgaacgaa atagacagat cgctgagata ggtgcctcac
+     3061 tgattaagca ttggtaactg tcagaccaag tttactcata tatactttag attgatttaa
+     3121 aacttcattt ttaatttaaa aggatctagg tgaagatcct ttttgataat ctcatgacca
+     3181 aaatccctta acgtgagttt tcgttccact gagcgtcaga ccccgtagaa aagatcaaag
+     3241 gatcttcttg agatcctttt tttctgcgcg taatctgctg cttgcaaaca aaaaaaccac
+     3301 cgctaccagc ggtggtttgt ttgccggatc aagagctacc aactcttttt ccgaaggtaa
+     3361 ctggcttcag cagagcgcag ataccaaata ctgtccttct agtgtagccg tagttaggcc
+     3421 accacttcaa gaactctgta gcaccgccta catacctcgc tctgctaatc ctgttaccag
+     3481 tggctgctgc cagtggcgat aagtcgtgtc ttaccgggtt ggactcaaga cgatagttac
+     3541 cggataaggc gcagcggtcg ggctgaacgg ggggttcgtg cacacagccc agcttggagc
+     3601 gaacgaccta caccgaactg agatacctac agcgtgagct atgagaaagc gccacgcttc
+     3661 ccgaagggag aaaggcggac aggtatccgg taagcggcag ggtcggaaca ggagagcgca
+     3721 cgagggagct tccaggggga aacgcctggt atctttatag tcctgtcggg tttcgccacc
+     3781 tctgacttga gcgtcgattt ttgtgatgct cgtcaggggg gcggagccta tggaaaaacg
+     3841 ccagcaacgc ggccttttta cggttcctgg ccttttgctg gccttttgct cacatgttct
+     3901 ttcctgcgtt atcccctgat tctgtggata accgtattac cgcctttgag tgagctgata
+     3961 ccgctcgccg cagccgaacg accgagcgca gcgagtcagt gagcgaggaa gcggaagagc
+     4021 gcccaatacg caaaccgcct ctccccgcgc gttggccgat tcattaatgc agctggcacg
+     4081 acaggtttcc cgactggaaa gcgggcagtg agcgcaacgc aattaatgtg agttagctca
+     4141 ctcattaggc accccaggct ttacacttta tgcttccggc tcgtatgttg tgtggaattg
+     4201 tgagcggata acaatttcac acaggaaaca gCctACTTAA AAGCGATTAT GATGCTGCCT
+     4261 AATGATGCAT TTAAGGTGCA TCATGGCAAA ATATTGCTAA AATTCAACCG ATTTACCCTA
+     4321 TTCACAAGAA AAAATGTATC ATTACGGAGT GAGTAAATCA TAACCCTGTA ACTTAAGCGG
+     4381 AGGAAGTATC GTGGCACAAC CATCAGTACA Aatgagccag atccacaagc ataccatccc
+     4441 ggcaaacatc gcggaccgtt gccttatcaa tccgcaacaa tatgaggcta tgtaccaaca
+     4501 aagcattaac gttccggaca ctttttgggg tgagcagggt aagattctgg attggatcaa
+     4561 accgtatcaa aaggtaaaga atacgagctt tgctccgggt aacgtaagca tcaagtggta
+     4621 tgaggacggt accttgaatc tggcagcaaa ttgtctggac cgccacttac aagagaacgg
+     4681 cgaccgcacc gcgattatct gggaaggtga tgacgcaagc caatccaaac atatctctta
+     4741 caaagagctg caccgtgatg tgtgccgctt tgcgaacacc ctgctggagt tgggtattaa
+     4801 aaagggtgac gtggtggcga tctacatgcc gatggtcccg gaggccgcag tcgcaatgct
+     4861 ggcatgtgca cgtattggtg ccgtgcatag cgtcatcttc ggtggtttta gcccggaggc
+     4921 ggttgcaggt cgcatcattg attctaactc gcgtctggtc attaccagcg acgaaggtgt
+     4981 ccgtgcgggt cgtagcattc cgctgaagaa aaacgttgat gacgctctga agaacccgaa
+     5041 tgtgacgtcg gtggaacacg tcgtggtttt gaagcgtacg ggtggcaaaa tcgattggca
+     5101 agagggtcgc gatctgtggt ggcatgacct ggttgaacag gcgtccgatc aacaccaggc
+     5161 cgaagaaatg aatgcggaag atccgctgtt cattttgtac acgagcggca gcaccggtaa
+     5221 gccgaaaggt gtactgcata cgaccggtgg ttacttggtt tatgccgcgc tgaccttcaa
+     5281 gtacgtgttt gactatcacc cgggcgacat ctactggtgc accgcggacg tgggttgggt
+     5341 taccggccac agctacctgc tgtatggtcc tttggcgtgc ggtgcgacga cgctgatgtt
+     5401 tgaaggcgtc cctaattggc cgaccccggc acgtatggca caggtggtcg ataaacatca
+     5461 ggtgaatatt ctgtacaccg caccgaccgc gatccgtgct ctgatggcgg agggcgataa
+     5521 agctatcgag ggtacggatc gttccagcct gcgtattctg ggcagcgttg gcgagcctat
+     5581 caacccggaa gcctgggagt ggtactggaa gaaaatcggt aacgagaaat gcccggttgt
+     5641 tgacacctgg tggcaaaccg aaactggtgg tttcatgatc acgccgctgc cgggtgctac
+     5701 cgagttgaaa gcgggctctg caacgcgtcc attctttggt gtgcagccgg cgttggtgga
+     5761 caatgaaggt aatccgctgg aaggtgcaac cgaaggcagc ttggttatca cggacagctg
+     5821 gccgggtcaa gcccgtacgt tgttcggtga ccatgaacgc ttcgaacaga cctactttag
+     5881 cacgtttaag aatatgtact tctccggcga tggtgcgcgt cgtgacgagg acggttacta
+     5941 ctggattacg ggtcgtgtcg atgacgttct gaacgtgagc ggccaccgtc tgggtactgc
+     6001 cgagattgag tctgcgctgg tcgcacaccc gaaaatcgcc gaagcagcgg ttgttggtat
+     6061 cccacataat atcaaaggcc aagcgatcta cgcctatgta accctgaatc acggtgaaga
+     6121 accgagccct gagttgtatg cagaggtccg caattgggtt cgtaaagaaa ttggcccgtt
+     6181 ggcgactccg gatgtgttgc attggaccga cagcctgccg aaaacccgtt cgggtaaaat
+     6241 tatgcgtcgt atcctgcgta aaatcgcagc cggtgatacc tccaatctgg gcgacacctc
+     6301 gaccttggcg gatccgggtg tcgttgaaaa actgctggaa gagaagcaag caatcgcaat
+     6361 gccgagctaa taaGGTTTCG TGGTAGACCA AAACAAGCTG GAAAAGGCAC TGGCTGAAAA
+     6421 GCTGTAATAT TGCTGACTTG AATAGCGCTA ATAATCAATT TATTAGCGCT ATTCACTTTA
+     6481 TTCAAGTAGT ACATAAGTGC TATTGGATTT ACCTAGCTTA ACGTTGACAT CAACTTTGAT
+     6541 TCCAACTTAA GATAGTTTTT CTAAAAACTA AGCACTTAAT TTTTTAAACC AACTGGAGGA
+     6601 AGTACATCGT GGCATTAACT CAAatgagcc tggaagataa ggacctgcgt agcatccaag
+     6661 aagtgcgtaa cctgatcgaa tctgcgaata aggcccaaaa agaactggcg gcgatgtcac
+     6721 agcaacagat tgataccatc gtgaaagcga ttgccgacgc aggctatggt gcgcgtgaaa
+     6781 aactggctaa gatggcgcac gaagaaacgg gctttggtat ttggcaggat aaagttatca
+     6841 agaacgtctt cgcctcgaag catgtctaca actacatcaa ggatatgaag accatcggta
+     6901 tgctgaaaga agacaacgaa aagaaagtta tggaagtcgc agtgccgctg ggcgtggttg
+     6961 ctggtctgat tccgtcaacc aatccgacct cgacggtgat ctacaaaacg ctgatttcaa
+     7021 tcaaggcggg caacagtatc gtgtttagcc cgcacccgaa tgccctgaaa gcaattctgg
+     7081 aaaccgtccg cattatctca gaagcggccg aaaaagcagg ctgcccgaag ggtgctattt
+     7141 cgtgtatgac cgttccgacg atccaaggca ccgatcagct gatgaaacat aaggacaccg
+     7201 ctgtcattct ggcaacgggc ggttctgcga tggtgaaagc agcttatagc tctggcaccc
+     7261 cggcaattgg tgtgggtccg ggcaacggtc cggcctttat tgaacgtagt gcgaatatcc
+     7321 cgcgtgcggt taaacacatc ctggattcca agaccttcga caacggtacg atttgcgcca
+     7381 gcgaacagtc tgtcgtggtt gaacgtgtca ataaagaagc tgtgatcgcg gaatttcgca
+     7441 agcaaggcgc acacttcctg agtgatgctg aagcggtgca gctgggcaaa ttcattctgc
+     7501 gtccgaacgg tagcatgaat ccggcgattg tgggcaaaag cgtgcaacat atcgcaaacc
+     7561 tggcaggtct gaccgtgccg gccgatgcac gtgttctgat tgcggaagaa acgaaagttg
+     7621 gcgccaagat cccgtatagt cgcgaaaaac tggccccgat tctggcattt tacaccgctg
+     7681 aaacgtggca ggaagcatgc gaactgagca tggatattct gtaccatgaa ggcgctggtc
+     7741 acaccctgat tatccatagc gaagacaaag aaattatccg tgaatttgca ctgaaaaagc
+     7801 cggtttctcg cctgctggtc aacacgccgg gcgcgctggg cggcattggt gccaccacga
+     7861 atctggttcc ggcactgacg ctgggctgtg gtgctgtcgg cggtagttcc tcatcggata
+     7921 atatcggtcc ggaaaacctg tttaatattc gtcgcatcgc caccggcgtg ctggaactgg
+     7981 aagacattcg cgaaggcggt agctaatgat taagccagcc ccgacacccg ccaacacccg
+     8041 ctgacgcgcc ctgacgggct tgtctgctcc cggcatccgc ttacagacaa gctgtgaccg
+     8101 tctccgggag ctgcatgtgt cagaggttag aaaaactcat cgagcatcaa atgaaactgc
+     8161 aatttattca tatcaggatt atcaatacca tatttttgaa aaagccgttt ctgtaatgaa
+     8221 ggagaaaact caccgaggca gttccatagg atggcaagat cctggtatcg gtctgcgatt
+     8281 ccgactcgtc caacatcaat acaacctatt aatttcccct cgtcaaaaat aaggttatca
+     8341 agtgagaaat caccatgagt gacgactgaa tccggtgaga atggcaaaag cttatgcatt
+     8401 tctttccaga cttgttcaac aggccagcca ttacgctcgt catcaaaatc actcgcatca
+     8461 accaaaccgt tattcattcg tgattgcgcc tgagcgagac gaaatacgcg atcgctgtta
+     8521 aaaggacaat tacaaacagg aatcgaatgc aaccggcgca ggaacactgc cagcgcatca
+     8581 acaatatttt cacctgaatc aggatattct tctaatacct ggaatgctgt tttcccgggg
+     8641 atcgcagtgg tgagtaacca tgcatcatca ggagtacgga taaaatgctt gatggtcgga
+     8701 agaggcataa attccgtcag ccagtttagt ctgaccatct catctgtaac atcattggca
+     8761 acgctacctt tgccatgttt cagaaacaac tctggcgcat cgggcttccc atacaatcga
+     8821 tagattgtcg cacctgattg cccgacatta tcgcgagccc atttataccc atataaatca
+     8881 gcatccatgt tggaatttaa tcgcggcctc gagcaagacg tttcccgttg aatatggctc
+     8941 ataacacccc ttgtattact gtttatgtaa gcagacagtt ttattgttca tgatgatata
+     9001 tttttatctt gtgcaatgta acatcagaga ttttgagaca caacgtggct ttcccccccc
+     9061 cccctgcagg tccgacacgg ggatggatgg cgttcccgat catggtcctg cttgcttcgg
+     9121 gagcgatact gagcgaagca agtgcgtcga gcagtgcccg  
+//

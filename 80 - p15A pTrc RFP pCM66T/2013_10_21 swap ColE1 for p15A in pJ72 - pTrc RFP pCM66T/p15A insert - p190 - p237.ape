@@ -1,0 +1,48 @@
+LOCUS       New_DNA                 1009 bp ds-DNA     circular     01-NOV-2013
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     22 - maxRFP_pGA3K3 from 2209 to 3512
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     CDS             complement(join(79..442,444..904))
+                     /label=p15A ori
+                     /ApEinfo_fwdcolor=#666666
+                     /ApEinfo_revcolor=#666666
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    981..1009
+                     /label=added on w primer 237
+                     /ApEinfo_fwdcolor=#52f8ff
+                     /ApEinfo_revcolor=#52f8ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    443..443
+                     /label=C insertion discovered 131030 10-244673917 p181
+                     /ApEinfo_fwdcolor=#ff160f
+                     /ApEinfo_revcolor=#ff160f
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 actttctggc tggatgatgg ggcgattcag gcctggtatg agtcagcaac accttcttca
+       61 cgaggcagac ctcagcgcta gcggagtgta tactggctta ctatgttggc actgatgagg
+      121 gtgtcagtga agtgcttcat gtggcaggag aaaaaaggct gcaccggtgc gtcagcagaa
+      181 tatgtgatac aggatatatt ccgcttcctc gctcactgac tcgctacgct cggtcgttcg
+      241 actgcggcga gcggaaatgg cttacgaacg gggcggagat ttcctggaag atgccaggaa
+      301 gatacttaac agggaagtga gagggccgcg gcaaagccgt ttttccatag gctccgcccc
+      361 cctgacaagc atcacgaaat ctgacgctca aatcagtggt ggcgaaaccc gacaggacta
+      421 taaagatacc aggcgtttcc ccCtggcggc tccctcgtgc gctctcctgt tcctgccttt
+      481 cggtttaccg gtgtcattcc gctgttatgg ccgcgtttgt ctcattccac gcctgacact
+      541 cagttccggg taggcagttc gctccaagct ggactgtatg cacgaacccc ccgttcagtc
+      601 cgaccgctgc gccttatccg gtaactatcg tcttgagtcc aacccggaaa gacatgcaaa
+      661 agcaccactg gcagcagcca ctggtaattg atttagagga gttagtcttg aagtcatgcg
+      721 ccggttaagg ctaaactgaa aggacaagtt ttggtgactg cgctcctcca agccagttac
+      781 ctcggttcaa agagttggta gctcagagaa ccttcgaaaa accgccctgc aaggcggttt
+      841 tttcgttttc agagcaagag attacgcgca gaccaaaacg atctcaagaa gatcatctta
+      901 ttaaggggtc tgacgctcag tggaacgaaa actcacgtta agggattttg gtcatgagat
+      961 tatcaaaaag gatcttcacc ccgtattacc gcctttgagt gagctgata 
+//
