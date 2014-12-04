@@ -1,0 +1,110 @@
+LOCUS       piece1___AeroADH        1637 bp ds-DNA     linear       27-OCT-2014
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     2014_10_27 pTrcHis2C N-term tag AeroADH with GGS linker from 521 to
+            2460
+COMMENT     102 - pTrc His2C NdeI pTrc ACS L641P XhoI - XhoI inside removed
+            from 1 to 6409
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    9..11
+                     /note="Geneious type: polylinker"
+                     /label=trcRBS1
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1614..1619
+                     /note="Geneious type: ORF"
+                     /label=KpnI
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1..8
+                     /note="Geneious type: polylinker"
+                     /label=trcRBS1(1)
+                     /ApEinfo_label=trcRBS1
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1608..1613
+                     /note="Geneious type: ORF"
+                     /label=XhoI
+                     /ApEinfo_fwdcolor=#72c3ff
+                     /ApEinfo_revcolor=#72c3ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1..6
+                     /label=trc-NcoI-F Homology
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1..6
+                     /label=RBS3alt
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    15..32
+                     /note="Geneious type: ORF"
+                     /label=His-Tag from ACS
+                     /ApEinfo_fwdcolor=#d3baff
+                     /ApEinfo_revcolor=#d3baff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1..1
+                     /label=RBS
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    42..1601
+                     /label=Aeromonos hydrophilia ADH - IDT codon optimized
+                     /ApEinfo_fwdcolor=#a9fbff
+                     /ApEinfo_revcolor=#a9fbff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    33..41
+                     /label=SGG linker
+                     /ApEinfo_fwdcolor=#b5ffb9
+                     /ApEinfo_revcolor=#b5ffb9
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 aataaaccat gggacaccac caccaccacc acAGTGGCGG TCTGTCTCGC CAGAACGCCC
+       61 GCGAGCTTGT CCGTAACGCG AAGCAGGCCC AGGTAATTAT GGCAACGTTT TCGCAACAGA
+      121 AGATTGATGC TATTGTAAAA AACGTTGCCG AGGAAGCGGC GCGTCACGCC GAAACGCTGG
+      181 CAAAAATGGC AGCCGAAGAG ACCGGATTTG GTAATTGGCA GGATAAAGTG CTGAAAAATC
+      241 GCTTTGCGAG TTTGCACGTT TACGACGCGA TTAAAGAAAT GAAAACAGTG GGGATTATTC
+      301 ACGATGATCA AGCCAAAAAG GTTATGGACG TGGGTGTCCC GTTAGGTGTC ATCTGCGCTC
+      361 TTGTGCCGTC GACGAACCCG ACCTCAACGA TTTTCTATAA GACTCTGATT GCCTTAAAGG
+      421 CGGGAAACGC GATTATCTTC TCACCACATC CGGGTGCGCG TCAGTGCTCA TGGAAAGCGA
+      481 TCGAAATTGT TAAACGGGCG GCGGAGGCTG CAGGCGCACC GGCCGGCATT GTTGATGGGG
+      541 TGACGCAACT GACCCTGGAG GCCACCTCAG AACTGATGCA TTCAAAGGAT GTTAGCTTAA
+      601 TCTTGGCCAC TGGTGGCGAA GGCATGGTGC GTGCAGCGTA TGCGAGTGGC ACACCAACTA
+      661 TTTCGGGCGG ACCGGGTAAT GGCCCGGCAT TTATCGAACG TTCAGCAGAT ATTCATCAAG
+      721 CTGTTAAAGA TATTATTACC AGTAAAACTT TCGACAACGG CGTCATTTGC GCTAGCGAAC
+      781 AATCGATCAT TGTTGAACGC TGCATCTATG ATGAAGTCCA TCGGGAATTA GCAGCTCAGG
+      841 GTGCCTACTT TATGAATGAA GACGAGGCCG CTCGTATGGC TGCGCTGTTA CTGCGGCCAA
+      901 ATGGTACCAT CAATCCGAAA GTCGTCGGTA AGACCGCCCT CCATCTGTCT CAGCTGGCAG
+      961 GCTTTTCCGT TCCGCCGTCA ACCCGCGTTC TGGTGGCAGA ACAGACGACG GTCAGCCATA
+     1021 GCAATCCTTA CAGTCGCGAA AAACTGTGCC CAGTGCTGGG ATTGTACGTT GAGGAAGAAT
+     1081 GGCGCGCTGC GTGTCATCGG GTAGTAGAGC TGCTGACTAA CGAGGGACTC GGCCACACCC
+     1141 TCGTTATTCA TACTCGCAAT CAGGATGTCA TCCGCCAGTT CAGCCTGGAA AAACCAGTAA
+     1201 ATCGCATTCT GATTAACACC CCCGCAGCGC TGGGGGGGAT TGGCGCCACG ACGAATCTGA
+     1261 CCCCCGCTCT GACACTGGGT TGTGGGGCAG TAGGTGGCGG CTCCTCCAGT GATAATGTGG
+     1321 GTCCAATGAA CTTGTTAAAC ATTCGTAAAG TCGGTTATGG TGTGCGCACC ATTGAAGAGC
+     1381 TGCGCGCCCC GATTCAACCT GTCGCGGTTC AACCGGCGTC AGCTGCTCCT ACCGCGCCGC
+     1441 AGCCGTGCAG TATTTTGGAC GATGCACGTT TTTCTGCACC CGCGCCTGCC TGTCATTCCG
+     1501 CGGATGATCG CTTTGCTGGC GCAAGCGCCG AAGTTGGCGG TGAAATTAGT GAACAGAATG
+     1561 TTGAGCGTGT AATTCGCCAA GTTTTGGAAC GTTTGGGCAA Ataataactc gagggtacca
+     1621 tatgggaatt cgaagct    
+//
