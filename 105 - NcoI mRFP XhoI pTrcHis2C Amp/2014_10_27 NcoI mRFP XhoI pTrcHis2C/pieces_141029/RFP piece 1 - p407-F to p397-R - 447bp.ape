@@ -1,0 +1,66 @@
+LOCUS       New_DNA                  447 bp ds-DNA     linear       29-OCT-2014
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     design goal NcoI mRFP xhoI pTrcHis2C from 244 to 929
+COMMENT     92 - pTrc ACS L641P for library template from 2508 to 6409
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     CDS             31..446
+                     /label=mRFP1_5'mut
+                     /ApEinfo_fwdcolor=#c2290b
+                     /ApEinfo_revcolor=#b13844
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    25..27
+                     /note="Geneious type: polylinker"
+                     /label=trcRBS1
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    11..24
+                     /note="Geneious type: polylinker"
+                     /label=trcRBS1(1)
+                     /ApEinfo_label=trcRBS1
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1..22
+                     /label=trc-NcoI-F Homology
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    5..22
+                     /label=RBS3alt
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    11..17
+                     /label=RBS
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    447..447
+                     /label=C -> t for NcoI removal 141029
+                     /ApEinfo_fwdcolor=#91afff
+                     /ApEinfo_revcolor=#91afff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 cgattaaata aggaggaata aaccatggga GCAAGTAGTG AAGACGTTAT CAAAGAGTTC
+       61 ATGCGTTTCA AAGTTCGTAT GGAAGGTTCC GTTAACGGTC ACGAGTTCGA AATCGAAGGT
+      121 GAAGGTGAAG GTCGTCCGTA CGAAGGTACC CAGACCGCTA AACTGAAAGT TACCAAAGGT
+      181 GGTCCGCTGC CGTTCGCTTG GGACATCCTG TCCCCGCAGT TCCAGTACGG TTCCAAAGCT
+      241 TACGTTAAAC ACCCGGCTGA CATCCCGGAC TACCTGAAAC TGTCCTTCCC GGAAGGTTTC
+      301 AAATGGGAAC GTGTTATGAA CTTCGAAGAC GGTGGTGTTG TTACCGTTAC CCAGGACTCC
+      361 TCCCTGCAAG ACGGTGAGTT CATCTACAAA GTTAAACTGC GTGGTACCAA CTTCCCGTCC
+      421 GACGGTCCGG TTATGCAGAA AAAAACt   
+//

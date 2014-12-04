@@ -1,0 +1,155 @@
+LOCUS       New_DNA                  742 bp ds-DNA     linear       16-NOV-2014
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     design goal NcoI mRFP xhoI pTrcHis2C from 483 to 1463
+COMMENT     92 - pTrc ACS L641P for library template from 2508 to 6409
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     CDS             join(31..422,448..702)
+                     /label=mRFP1_5'mut
+                     /ApEinfo_fwdcolor=#c2290b
+                     /ApEinfo_revcolor=#b13844
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    25..27
+                     /note="Geneious type: polylinker"
+                     /label=trcRBS1
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    11..24
+                     /note="Geneious type: polylinker"
+                     /label=trcRBS1(1)
+                     /ApEinfo_label=trcRBS1
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1..22
+                     /label=trc-NcoI-F Homology
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    5..22
+                     /label=RBS3alt
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    11..17
+                     /label=RBS
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    733..738
+                     /note="Geneious type: ORF"
+                     /label=KpnI
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    709..726
+                     /label=His*6 from ACS pJ92
+                     /ApEinfo_fwdcolor=#f4ff6e
+                     /ApEinfo_revcolor=#f4ff6e
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(169..190)
+                     /label=244-70.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1..24)
+                     /label=252-70.2oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1..24)
+                     /label=257-70.2oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     534..553
+                     /label=283-69.5oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1..30)
+                     /label=315-70.7oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     709..742
+                     /label=316-74.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     709..742
+                     /label=317-80.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     709..742
+                     /label=318-84.9oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     703..723
+                     /label=400-72.8oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1..30
+                     /label=401-74.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     733..742
+                     /label=403-70.8oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    31..60
+                     /label=pJ22 priming primer 407
+                     /ApEinfo_fwdcolor=#7fff81
+                     /ApEinfo_revcolor=#7fff81
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    683..702
+                     /label=pJ22 priming by p399-R
+                     /ApEinfo_fwdcolor=#66ff62
+                     /ApEinfo_revcolor=#66ff62
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 cgattaaata aggaggaata aaccatggga GCAAGTAGTG AAGACGTTAT CAAAGAGTTC
+       61 ATGCGTTTCA AAGTTCGTAT GGAAGGTTCC GTTAACGGTC ACGAGTTCGA AATCGAAGGT
+      121 GAAGGTGAAG GTCGTCCGTA CGAAGGTACC CAGACCGCTA AACTGAAAGT TACCAAAGGT
+      181 GGTCCGCTGC CGTTCGCTTG GGACATCCTG TCCCCGCAGT TCCAGTACGG TTCCAAAGCT
+      241 TACGTTAAAC ACCCGGCTGA CATCCCGGAC TACCTGAAAC TGTCCTTCCC GGAAGGTTTC
+      301 AAATGGGAAC GTGTTATGAA CTTCGAAGAC GGTGGTGTTG TTACCGTTAC CCAGGACTCC
+      361 TCCCTGCAAG ACGGTGAGTT CATCTACAAA GTTAAACTGC GTGGTACCAA CTTCCCGTCC
+      421 GAAGTTTTTT TCTGCATAAC CGGACCGATG GGTTGGGAAG CTTCCACCGA ACGTATGTAC
+      481 CCGGAAGACG GTGCTCTGAA AGGTGAAATC AAAATGCGTC TGAAACTGAA AGACGGTGGT
+      541 CACTACGACG CTGAAGTTAA AACCACCTAC ATGGCTAAAA AACCGGTTCA GCTGCCGGGT
+      601 GCTTACAAAA CCGACATCAA ACTGGACATC ACCTCCCACA ACGAAGACTA CACCATCGTT
+      661 GAACAGTACG AACGTGCTGA AGGTCGTCAC TCCACCGGTG CTctcgagca ccaccaccac
+      721 caccactaat aaggtaccat at   
+//

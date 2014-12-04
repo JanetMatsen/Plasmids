@@ -1,0 +1,56 @@
+LOCUS       New_DNA                  334 bp ds-DNA     linear       27-OCT-2014
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     72 - pTrc RFP pCM66T from 2514 to 3122
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     CDS             join(1..38,40..294)
+                     /label=mRFP1_5'mut
+                     /ApEinfo_fwdcolor=#c2290b
+                     /ApEinfo_revcolor=#b13844
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    39..39
+                     /label=C -> T so NcoI is removed in frame
+                     /ApEinfo_fwdcolor=#ffa262
+                     /ApEinfo_revcolor=#ff6767
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(277..294)
+                     /label=231-69.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    275..294
+                     /label=p399 binding
+                     /ApEinfo_fwdcolor=#bbd0ff
+                     /ApEinfo_revcolor=#bbd0ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    325..330
+                     /note="Geneious type: ORF"
+                     /label=KpnI
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    275..334
+                     /label=p399-R
+                     /ApEinfo_fwdcolor=#51f0ff
+                     /ApEinfo_revcolor=#51f0ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 AACTTCCCGT CCGACGGTCC GGTTATGCAG AAAAAAACTA TGGGTTGGGA AGCTTCCACC
+       61 GAACGTATGT ACCCGGAAGA CGGTGCTCTG AAAGGTGAAA TCAAAATGCG TCTGAAACTG
+      121 AAAGACGGTG GTCACTACGA CGCTGAAGTT AAAACCACCT ACATGGCTAA AAAACCGGTT
+      181 CAGCTGCCGG GTGCTTACAA AACCGACATC AAACTGGACA TCACCTCCCA CAACGAAGAC
+      241 TACACCATCG TTGAACAGTA CGAACGTGCT GAAGGTCGTC ACTCCACCGG TGCTctcgag
+      301 caccaccacc accaccacta ataaggtacc atat  
+//

@@ -1,0 +1,86 @@
+LOCUS       New_DNA                  334 bp ds-DNA     linear       29-OCT-2014
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     design goal NcoI mRFP xhoI pTrcHis2C from 890 to 1563
+COMMENT     92 - pTrc ACS L641P for library template from 2508 to 6409
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     CDS             join(1..38,40..294)
+                     /label=mRFP1_5'mut
+                     /ApEinfo_fwdcolor=#c2290b
+                     /ApEinfo_revcolor=#b13844
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    325..330
+                     /note="Geneious type: ORF"
+                     /label=KpnI
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    301..318
+                     /label=His*6 from ACS pJ92
+                     /ApEinfo_fwdcolor=#f4ff6e
+                     /ApEinfo_revcolor=#f4ff6e
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    39..39
+                     /label=C -> t for NcoI removal 141029
+                     /ApEinfo_fwdcolor=#91afff
+                     /ApEinfo_revcolor=#91afff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     301..334
+                     /label=316-74.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     301..334
+                     /label=317-80.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     301..334
+                     /label=318-84.9oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(15..39)
+                     /label=397-70.2oC-
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1..60
+                     /label=398-70.2oC-
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(275..334)
+                     /label=399-70.2oC-
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     325..334
+                     /label=403-NAoC-
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 AACTTCCCGT CCGACGGTCC GGTTATGCAG AAAAAAACtA TGGGTTGGGA AGCTTCCACC
+       61 GAACGTATGT ACCCGGAAGA CGGTGCTCTG AAAGGTGAAA TCAAAATGCG TCTGAAACTG
+      121 AAAGACGGTG GTCACTACGA CGCTGAAGTT AAAACCACCT ACATGGCTAA AAAACCGGTT
+      181 CAGCTGCCGG GTGCTTACAA AACCGACATC AAACTGGACA TCACCTCCCA CAACGAAGAC
+      241 TACACCATCG TTGAACAGTA CGAACGTGCT GAAGGTCGTC ACTCCACCGG TGCTctcgag
+      301 caccaccacc accaccacta ataaggtacc atat  
+//

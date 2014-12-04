@@ -1,0 +1,89 @@
+LOCUS       piece1___p300_F_         806 bp ds-DNA     linear       27-OCT-2014
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     desired insert with NcoI cut inside removed from 1 to 511
+COMMENT     New DNA from 249 to 1013
+COMMENT     72 - pTrc RFP pCM66T from 1901 to 3262
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    92..511
+                     /label=mRFP
+                     /ApEinfo_fwdcolor=#ff4245
+                     /ApEinfo_revcolor=#ff4245
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     CDS             512..766
+                     /label=mRFP1_5'mut
+                     /ApEinfo_fwdcolor=#c2290b
+                     /ApEinfo_revcolor=#b13844
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    511..511
+                     /label=C -> T so NcoI is removed in frame
+                     /ApEinfo_fwdcolor=#ffa262
+                     /ApEinfo_revcolor=#ff6767
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     RBS             48..52
+                     /created_by="User"
+                     /label=RBS
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1..21
+                     /label=p300-F
+                     /ApEinfo_fwdcolor=#ff48e2
+                     /ApEinfo_revcolor=#ff48e2
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    487..511
+                     /label=p397-R
+                     /ApEinfo_fwdcolor=#ff49e9
+                     /ApEinfo_revcolor=#ff49e9
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(749..766)
+                     /label=231-69.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    747..766
+                     /label=p399 binding
+                     /ApEinfo_fwdcolor=#bbd0ff
+                     /ApEinfo_revcolor=#bbd0ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    797..802
+                     /note="Geneious type: ORF"
+                     /label=KpnI
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    747..806
+                     /label=p399-R
+                     /ApEinfo_fwdcolor=#51f0ff
+                     /ApEinfo_revcolor=#51f0ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 tgggcactcg accggaatta tcgattaact ttattattaa aaattaaaga ggtatatatt
+       61 aatgtatcga ttaaataagg aggaataaac cATGGCAAGT AGTGAAGACG TTATCAAAGA
+      121 GTTCATGCGT TTCAAAGTTC GTATGGAAGG TTCCGTTAAC GGTCACGAGT TCGAAATCGA
+      181 AGGTGAAGGT GAAGGTCGTC CGTACGAAGG TACCCAGACC GCTAAACTGA AAGTTACCAA
+      241 AGGTGGTCCG CTGCCGTTCG CTTGGGACAT CCTGTCCCCG CAGTTCCAGT ACGGTTCCAA
+      301 AGCTTACGTT AAACACCCGG CTGACATCCC GGACTACCTG AAACTGTCCT TCCCGGAAGG
+      361 TTTCAAATGG GAACGTGTTA TGAACTTCGA AGACGGTGGT GTTGTTACCG TTACCCAGGA
+      421 CTCCTCCCTG CAAGACGGTG AGTTCATCTA CAAAGTTAAA CTGCGTGGTA CCAACTTCCC
+      481 GTCCGACGGT CCGGTTATGC AGAAAAAAAC TATGGGTTGG GAAGCTTCCA CCGAACGTAT
+      541 GTACCCGGAA GACGGTGCTC TGAAAGGTGA AATCAAAATG CGTCTGAAAC TGAAAGACGG
+      601 TGGTCACTAC GACGCTGAAG TTAAAACCAC CTACATGGCT AAAAAACCGG TTCAGCTGCC
+      661 GGGTGCTTAC AAAACCGACA TCAAACTGGA CATCACCTCC CACAACGAAG ACTACACCAT
+      721 CGTTGAACAG TACGAACGTG CTGAAGGTCG TCACTCCACC GGTGCTctcg agcaccacca
+      781 ccaccaccac taataaggta ccatat   
+//
