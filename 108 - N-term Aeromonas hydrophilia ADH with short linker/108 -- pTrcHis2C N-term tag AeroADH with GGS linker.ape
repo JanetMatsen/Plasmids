@@ -1,4 +1,4 @@
-LOCUS       colA____pTrcHis2        5983 bp ds-DNA     circular     19-NOV-2014
+LOCUS       108____pTrcHis2C        5983 bp ds-DNA     circular     04-DEC-2014
 DEFINITION  .
 ACCESSION   
 VERSION     
@@ -6,7 +6,6 @@ SOURCE      .
   ORGANISM  .
 COMMENT     102 - pTrc His2C NdeI pTrc ACS L641P XhoI - XhoI inside removed
             from 1 to 6409
-COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      primer_bind     complement(2305..2325)
@@ -393,12 +392,6 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=green
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     misc_feature    298..1093
-                     /label=10-279826259 p308-F perfect
-                     /ApEinfo_fwdcolor=#fff3c5
-                     /ApEinfo_revcolor=#fff3c5
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    2251..2263
                      /label=New Feature(1)
                      /ApEinfo_label=New Feature
@@ -406,23 +399,11 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=green
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     misc_feature    1394..2263
-                     /label=10-280394435 p292-R perfect
-                     /ApEinfo_fwdcolor=#f0ffa9
-                     /ApEinfo_revcolor=#f0ffa9
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    1003..1019
                      /label=New Feature(2)
                      /ApEinfo_label=New Feature
                      /ApEinfo_fwdcolor=cyan
                      /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    1003..1958
-                     /label=10-280700703 p292-R FINISHED SEQUENCING
-                     /ApEinfo_fwdcolor=#fffad5
-                     /ApEinfo_revcolor=#fffad5
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
