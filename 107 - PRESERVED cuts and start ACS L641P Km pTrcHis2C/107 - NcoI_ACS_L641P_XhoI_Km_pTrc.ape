@@ -1,4 +1,4 @@
-LOCUS       colG____ACS_L641        6364 bp ds-DNA     linear       14-NOV-2014
+LOCUS       107___NcoI_ACS_L        6364 bp ds-DNA     linear       04-DEC-2014
 DEFINITION  .
 ACCESSION   
 VERSION     
@@ -6,7 +6,6 @@ SOURCE      .
   ORGANISM  .
 COMMENT     102 - pTrc His2C NdeI pTrc ACS L641P XhoI - XhoI inside removed
             from 4053 to 6409
-COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      primer_bind     complement(4815..4835)
@@ -525,23 +524,11 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=green
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     misc_feature    2378..3297
-                     /label=10-279826259 p308-F perfect for 920bp
-                     /ApEinfo_fwdcolor=#f0ffb1
-                     /ApEinfo_revcolor=#f0ffb1
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    3734..3743
                      /label=New Feature(1)
                      /ApEinfo_label=New Feature
                      /ApEinfo_fwdcolor=cyan
                      /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    3026..3743
-                     /label=10-279928827 mut_V387-R perfect for 718bp
-                     /ApEinfo_fwdcolor=#fff4c0
-                     /ApEinfo_revcolor=#fff4c0
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      misc_feature    4772..4781
@@ -551,23 +538,11 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=green
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     misc_feature    3794..4781
-                     /label=10-279928827 p292-R
-                     /ApEinfo_fwdcolor=#fff5ce
-                     /ApEinfo_revcolor=#fff5ce
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    3132..3150
                      /label=New Feature(3)
                      /ApEinfo_label=New Feature
                      /ApEinfo_fwdcolor=cyan
                      /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    3132..4060
-                     /label=10-280285569 p_mut_Y496-R perfect 929
-                     /ApEinfo_fwdcolor=#fff6a3
-                     /ApEinfo_revcolor=#fff6a3
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
