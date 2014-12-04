@@ -1,0 +1,140 @@
+LOCUS       New_DNA                  693 bp ds-DNA     linear       30-OCT-2014
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     141030_design_goal_BREAK_NcoI_XhoI_but_Km_no_XhoI_backbone from
+            4594 to 5527
+COMMENT     102 - pTrc His2C NdeI pTrc ACS L641P XhoI - XhoI inside removed
+            from 4053 to 6409
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     primer_bind     complement(222..242)
+                     /label=trcR seq
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    51..56
+                     /note="Geneious type: ORF"
+                     /label=KpnI
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     51..60
+                     /label=316-74.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    join(1..22,24..44)
+                     /note="Geneious type: ORF"
+                     /label=ACS(wt, pET15 mod w/ primer)
+                     /ApEinfo_fwdcolor=#a46bff
+                     /ApEinfo_revcolor=#a46bff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     CDS             686..693
+                     /label=kanR
+                     /ApEinfo_fwdcolor=#ffff33
+                     /ApEinfo_revcolor=#ffff00
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    complement(686..693)
+                     /label=p410 binding
+                     /ApEinfo_fwdcolor=#73bfff
+                     /ApEinfo_revcolor=#73bfff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     27..44
+                     /label=316-74.4oC-F(1)
+                     /ApEinfo_label=316-74.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    681..685
+                     /label=p410 backbone binding
+                     /ApEinfo_fwdcolor=#8cffe6
+                     /ApEinfo_revcolor=#8cffe6
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     27..44
+                     /label=317-80.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     51..68
+                     /label=317-80.2oC-F(1)
+                     /ApEinfo_label=317-80.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     27..44
+                     /label=318-84.9oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(664..680)
+                     /label=288-56oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     51..86
+                     /label=318-84.9oC-F(1)
+                     /ApEinfo_label=318-84.9oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(222..242)
+                     /label=292-63oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(656..680)
+                     /label=297-70.5oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     625..651
+                     /label=298-70oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(104..124)
+                     /label=305-70.7oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    23..23
+                     /label=141030 remove XhoI
+                     /ApEinfo_fwdcolor=#ff6129
+                     /ApEinfo_revcolor=#ff6129
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 tcgacaagct tgcggccgca ctTgagcacc accaccacca ccacTAATAA ggtaccatat
+       61 gggaattcga agcttacgta gaacaaaaac tcatctcaga agaggatctg aatagcgccg
+      121 tcgaccatca tcatcatcat cattgagttt aaacggtctc cagcttggct gttttggcgg
+      181 atgagagaag attttcagcc tgatacagat taaatcagaa cgcagaagcg gtctgataaa
+      241 acagaatttg cctggcggca gtagcgcggt ggtcccacct gaccccatgc cgaactcaga
+      301 agtgaaacgc cgtagcgccg atggtagtgt ggggtctccc catgcgagag tagggaactg
+      361 ccaggcatca aataaaacga aaggctcagt cgaaagactg ggcctttcgt tttatctgtt
+      421 gtttgtcggt gaacgctctc ctgagtagga caaatccgcc gggagcggat ttgaacgttg
+      481 cgaagcaacg gcccggaggg tggcgggcag gacgcccgcc ataaactgcc aggcatcaaa
+      541 ttaagcagaa ggccatcctg acggatggcc tttttgcgtt tctacaaact ctttttgttt
+      601 atttttctaa atacattcaa atatgtatcc gctcatgaga caataaccct gataaatgct
+      661 tcaataatat tgaaaaagga agagtatgag cca  
+//
