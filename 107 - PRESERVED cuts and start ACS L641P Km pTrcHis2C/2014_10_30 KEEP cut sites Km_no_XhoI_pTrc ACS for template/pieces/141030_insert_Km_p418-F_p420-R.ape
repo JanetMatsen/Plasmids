@@ -1,0 +1,109 @@
+LOCUS       141030_insert_Km         869 bp ds-DNA     linear       30-OCT-2014
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     2014_10_29 no cut sites Km pTrc ACS for template - DESIGN GOAL from
+            5384 to 6291
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     CDS             join(25..56,58..816)
+                     /label=kanR
+                     /ApEinfo_fwdcolor=#ffff33
+                     /ApEinfo_revcolor=#ffff00
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    complement(25..41)
+                     /label=p410 binding
+                     /ApEinfo_fwdcolor=#73bfff
+                     /ApEinfo_revcolor=#73bfff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    11..24
+                     /label=p410 backbone binding
+                     /ApEinfo_fwdcolor=#8cffe6
+                     /ApEinfo_revcolor=#8cffe6
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     CDS             817..840
+                     /label=kanR(1)
+                     /ApEinfo_label=kanR
+                     /ApEinfo_fwdcolor=#ffff33
+                     /ApEinfo_revcolor=#ffff00
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    complement(817..840)
+                     /label=binding p411
+                     /ApEinfo_fwdcolor=#b9d0ff
+                     /ApEinfo_revcolor=#b9d0ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    841..869
+                     /label=p411 backbone binding
+                     /ApEinfo_fwdcolor=#93ffd5
+                     /ApEinfo_revcolor=#93ffd5
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    57..57
+                     /label=141030 remove XhoI cut site from pSB3K3 Km
+                     /ApEinfo_fwdcolor=#c6ff82
+                     /ApEinfo_revcolor=#c6ff82
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    24..24
+                     /label=New Feature
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    24..70
+                     /label=pGA3K3 RFP binding of p418
+                     /ApEinfo_fwdcolor=#ffaefc
+                     /ApEinfo_revcolor=#ffaefc
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    810..869
+                     /label=New Feature(1)
+                     /ApEinfo_label=New Feature
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    810..841
+                     /label=p420_binding of pGA3K3
+                     /ApEinfo_fwdcolor=#fc92ff
+                     /ApEinfo_revcolor=#fc92ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3..10)
+                     /label=288-56oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1..10)
+                     /label=297-70.5oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 caataatatt gaaaaaggaa gagtatgagc catattcaac gggaaacgtc ttgctcTagg
+       61 ccgcgattaa attccaacat ggatgctgat ttatatgggt ataaatgggc tcgcgataat
+      121 gtcgggcaat caggtgcgac aatctatcga ttgtatggga agcccgatgc gccagagttg
+      181 tttctgaaac atggcaaagg tagcgttgcc aatgatgtta cagatgagat ggtcagacta
+      241 aactggctga cggaatttat gcctcttccg accatcaagc attttatccg tactcctgat
+      301 gatgcatggt tactcaccac tgcgatcccc gggaaaacag cattccaggt attagaagaa
+      361 tatcctgatt caggtgaaaa tattgttgat gcgctggcag tgttcctgcg ccggttgcat
+      421 tcgattcctg tttgtaattg tccttttaac agcgatcgcg tatttcgtct cgctcaggcg
+      481 caatcacgaa tgaataacgg tttggttgat gcgagtgatt ttgatgacga gcgtaatggc
+      541 tggcctgttg aacaagtctg gaaagaaatg cataagcttt tgccattctc accggattca
+      601 gtcgtcactc atggtgattt ctcacttgat aaccttattt ttgacgaggg gaaattaata
+      661 ggttgtattg atgttggacg agtcggaatc gcagaccgat accaggatct tgccatccta
+      721 tggaactgcc tcggtgagtt ttctccttca ttacagaaac ggctttttca aaaatatggt
+      781 attgataatc ctgatatgaa taaattgcag tttcatttga tgctcgatga gtttttctaa
+      841 ctgtcagacc aagtttactc atatatact   
+//
