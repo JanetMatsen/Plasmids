@@ -5,7 +5,6 @@ VERSION
 SOURCE      .
   ORGANISM  .
 COMMENT     92 - pTrc ACS L641P for library template from 2508 to 6409
-COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      CDS             join(513..928,930..1184)
@@ -423,9 +422,15 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=green
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     misc_feature    74..74
+                     /label=g --> A that I think is frequently seen in pTrc
+                     /ApEinfo_fwdcolor=#c0ffff
+                     /ApEinfo_revcolor=#c0ffff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
 ORIGIN
         1 cgattcatta atgcagctgg cacgacaggt ttcccgactg gaaagcgggc agtgagcgca
-       61 acgcaattaa tgtgagttag cgcgaattga tctggtttga cagcttatca tcgactgcac
+       61 acgcaattaa tgtAagttag cgcgaattga tctggtttga cagcttatca tcgactgcac
       121 ggtgcaccaa tgcttctggc gtcaggcagc catcggaagc tgtggtatgg ctgtgcaggt
       181 cgtaaatcac tgcataattc gtgtcgctca aggcgcactc ccgttctgga taatgttttt
       241 tgcgccgaca tcataacggt tctggcaaat attctgaaat gagctgttga caattaatca
