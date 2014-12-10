@@ -1,10 +1,9 @@
-LOCUS       102___pTrc_His2C        6409 bp ds-DNA     circular     08-DEC-2014
+LOCUS       102___pTrc_His2C        6409 bp ds-DNA     circular     10-DEC-2014
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
-COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -115,6 +114,12 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#ffe237
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     primer_bind     complement(5230..5251)
+                     /label=158-65.9oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      primer_bind     4914..4933
                      /label=7*-63.5oC-R
                      /ApEinfo_fwdcolor=#680000
@@ -170,7 +175,8 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     complement(5230..5251)
-                     /label=158-65.9oC-R
+                     /label=158-65.9oC-R(1)
+                     /ApEinfo_label=158-65.9oC-R
                      /ApEinfo_fwdcolor=#680000
                      /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
