@@ -1,9 +1,10 @@
-LOCUS       102___pTrc_His2C        6409 bp ds-DNA     circular     10-DEC-2014
+LOCUS       102___pTrc_His2C        6409 bp ds-DNA     circular     02-FEB-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
+COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -114,8 +115,8 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#ffe237
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     complement(5230..5251)
-                     /label=158-65.9oC-R
+     primer_bind     complement(3143..3182)
+                     /label=NA-72.4oC-R
                      /ApEinfo_fwdcolor=#680000
                      /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -175,8 +176,7 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     complement(5230..5251)
-                     /label=158-65.9oC-R(1)
-                     /ApEinfo_label=158-65.9oC-R
+                     /label=158-65.9oC-R
                      /ApEinfo_fwdcolor=#680000
                      /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -484,10 +484,70 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     complement(3143..3182)
-                     /label=NA-72.4oC-R
+     primer_bind     complement(742..762)
+                     /label=421-71.7oC-R
                      /ApEinfo_fwdcolor=#680000
                      /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2085..2104
+                     /label=422-70.8oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(2795..2818)
+                     /label=423-70.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(2663..2685)
+                     /label=424-72.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(2727..2753)
+                     /label=425-71.9oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1341..1380
+                     /label=426-84.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1341..1380)
+                     /label=427-84.2oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1486..1525)
+                     /label=428-93.9oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1486..1525
+                     /label=429-93.9oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1783..1822)
+                     /label=430-93.2oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1783..1822
+                     /label=431-93.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
