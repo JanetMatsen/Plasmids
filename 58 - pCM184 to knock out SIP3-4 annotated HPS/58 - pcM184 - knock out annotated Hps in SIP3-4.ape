@@ -1,4 +1,4 @@
-LOCUS       58___pcM184___kn        7730 bp ds-DNA     circular     20-MAY-2014
+LOCUS       58___pcM184___kn        7730 bp ds-DNA     circular     09-FEB-2015
 DEFINITION  Allelic exchange vector pCM184, complete sequence.
 ACCESSION   AY093429
 VERSION     AY093429.1  GI:22651571
@@ -16,6 +16,7 @@ REFERENCE   2  (bases 1 to 6760)
   TITLE     Direct Submission
   JOURNAL   Submitted (28-MAR-2002) Chemical Engineering, University of
             Washington, Box 351750, Seattle, WA 98195-1750, USA
+COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -384,6 +385,36 @@ FEATURES             Location/Qualifiers
                      /label=298-70oC-F
                      /ApEinfo_fwdcolor=#AC9D93
                      /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(join(7708..7730,1..3))
+                     /label=412-60.1oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     874..898
+                     /label=413-58.4oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(join(7683..7730,1..3))
+                     /label=414-70.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(620..648)
+                     /label=434-77oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     88..118
+                     /label=435-76.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
