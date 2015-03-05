@@ -1,11 +1,10 @@
-LOCUS       p15A_pHps2_RFP_p        6264 bp ds-DNA     circular     05-MAR-2015
+LOCUS       p15A_pHps2_RFP_p        6264 bp ds-DNA     circular     01-NOV-2013
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
 COMMENT     template - 72 - pTrc RFP pCM66T from 1 to 6214
-COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      CDS             complement(join(937..1300,1302..1762))
