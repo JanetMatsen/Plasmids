@@ -1,4 +1,4 @@
-LOCUS       95_pTrc_His2C_AD        5785 bp ds-DNA     circular     13-JUN-2014
+LOCUS       95_pTrc_His2C_AD        5785 bp ds-DNA     circular     05-MAR-2015
 DEFINITION  .
 ACCESSION   urn.local...1350583095764.50
 VERSION     urn.local...1350583095764.50
@@ -9,7 +9,6 @@ COMMENT     plasmid 95: keep colony 4.28-4.
 COMMENT     plasmid 95: Uses 3K9D sequence, which is a trimmed version of the
             WT listeria ADH.
 COMMENT     plasmid 95: Linker = GGS. 
-COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      rep_origin      3470..4089
@@ -442,6 +441,13 @@ FEATURES             Location/Qualifiers
                      /label=318-84.9oC-F
                      /ApEinfo_fwdcolor=#AC9D93
                      /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1784..1795
+                     /label=EGGS sequence not found in WT from Listeria.
+                     Artifact of 3K9D
+                     /ApEinfo_fwdcolor=#ff9d43
+                     /ApEinfo_revcolor=#ff9d43
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
