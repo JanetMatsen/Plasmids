@@ -1,9 +1,10 @@
-LOCUS       72___pTrc_RFP_pC        6214 bp ds-DNA     linear       05-MAR-2015
+LOCUS       72___pTrc_RFP_pC        6214 bp ds-DNA     linear       06-MAR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
+COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -192,6 +193,24 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     primer_bind     complement(812..832)
+                     /label=126-72.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     761..785
+                     /label=132-73.2oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     841..862
+                     /label=145-64.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      primer_bind     4444..4462
                      /label=160-65.4oC-R
                      /ApEinfo_fwdcolor=#680000
@@ -258,10 +277,22 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     primer_bind     3008..3067
+                     /label=214-69.5oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      primer_bind     4032..4055
                      /label=222-70.4oC-F
                      /ApEinfo_fwdcolor=#AC9D93
                      /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4012..4071)
+                     /label=223-70.3oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     935..962
@@ -330,8 +361,26 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     primer_bind     2239..2271
+                     /label=243-NAoC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      primer_bind     complement(2381..2402)
                      /label=244-70.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1982..2041
+                     /label=247-NAoC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(2191..2269)
+                     /label=248-69.2oC-R
                      /ApEinfo_fwdcolor=#680000
                      /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -456,6 +505,18 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     primer_bind     complement(2895..2914)
+                     /label=399-70.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2243..2272
+                     /label=407-NAoC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      primer_bind     932..957
                      /label=412-60.1oC-F
                      /ApEinfo_fwdcolor=#AC9D93
@@ -472,6 +533,12 @@ FEATURES             Location/Qualifiers
                      /label=435-76.6oC-R
                      /ApEinfo_fwdcolor=#680000
                      /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2915..2974
+                     /label=439-95oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
