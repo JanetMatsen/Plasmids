@@ -1,10 +1,9 @@
-LOCUS       102___pTrc_His2C        6409 bp ds-DNA     circular     06-FEB-2015
+LOCUS       102___pTrc_His2C        6409 bp ds-DNA     circular     20-MAR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
-COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -85,40 +84,10 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#53a6ff
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     join(2536..2553,2560..2569)
-                     /label=316-74.4oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     join(2536..2553,2560..2577)
-                     /label=317-80.2oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     join(2536..2553,2560..2595)
-                     /label=318-84.9oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    3393..3400
-                     /label=New Feature
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    3393..4052
                      /label=Amp matching annotation in pSB1A3
                      /ApEinfo_fwdcolor=#ffe237
                      /ApEinfo_revcolor=#ffe237
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(3143..3182)
-                     /label=NA-72.4oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     4914..4933
@@ -422,22 +391,19 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     2536..2569
-                     /label=316-74.4oC-F(1)
-                     /ApEinfo_label=316-74.4oC-F
+                     /label=316-74.4oC-F
                      /ApEinfo_fwdcolor=#AC9D93
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     2536..2577
-                     /label=317-80.2oC-F(1)
-                     /ApEinfo_label=317-80.2oC-F
+                     /label=317-80.2oC-F
                      /ApEinfo_fwdcolor=#AC9D93
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     2536..2595
-                     /label=318-84.9oC-F(1)
-                     /ApEinfo_label=318-84.9oC-F
+                     /label=318-84.9oC-F
                      /ApEinfo_fwdcolor=#AC9D93
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
