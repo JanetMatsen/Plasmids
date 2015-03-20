@@ -1,4 +1,4 @@
-LOCUS       106____ACS_L641P        6364 bp ds-DNA     linear       04-DEC-2014
+LOCUS       106____ACS_L641P        6364 bp ds-DNA     linear       20-MAR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
@@ -6,7 +6,6 @@ SOURCE      .
   ORGANISM  .
 COMMENT     102 - pTrc His2C NdeI pTrc ACS L641P XhoI - XhoI inside removed
             from 4053 to 6409
-COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      primer_bind     complement(4815..4835)
@@ -27,12 +26,6 @@ FEATURES             Location/Qualifiers
                      /label=ACS(wt, pET15 mod w/ primer)
                      /ApEinfo_fwdcolor=#a46bff
                      /ApEinfo_revcolor=#a46bff
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(join(2585..2612,2614..2618))
-                     /label=315-70.7oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      CDS             join(5279..5310,5312..6070)
@@ -116,22 +109,29 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#53a6ff
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     complement(5257..5273)
-                     /label=288-56oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(5249..5273)
-                     /label=297-70.5oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    2613..2613
                      /label=141030_break_NcoI and ATG
                      /ApEinfo_fwdcolor=#ff7b3a
                      /ApEinfo_revcolor=#ff7b3a
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    4644..4649
+                     /note="Geneious type: ORF"
+                     /label=KpnI
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    4537..4537
+                     /label=ACS L641P mutation
+                     /ApEinfo_fwdcolor=#42aa3a
+                     /ApEinfo_revcolor=#42aa3a
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    4616..4616
+                     /label=141030 remove XhoI
+                     /ApEinfo_fwdcolor=#ff6129
+                     /ApEinfo_revcolor=#ff6129
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     589..608
@@ -278,6 +278,18 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     primer_bind     4537..4550
+                     /label=277-70.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4527..4537)
+                     /label=278-70.4oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      primer_bind     3244..3263
                      /label=282-65.2oC-F
                      /ApEinfo_fwdcolor=#AC9D93
@@ -309,10 +321,15 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     complement(5257..5281)
-                     /label=288-56oC-R(1)
-                     /ApEinfo_label=288-56oC-R
+                     /label=288-56oC-R
                      /ApEinfo_fwdcolor=#680000
                      /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4001..4021
+                     /label=290-63.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     complement(3380..3402)
@@ -363,6 +380,24 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     primer_bind     4521..4553
+                     /label=303-80.6oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4521..4553)
+                     /label=304-80.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4697..4717)
+                     /label=305-70.7oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      primer_bind     2919..2942
                      /label=306-71.7oC-F
                      /ApEinfo_fwdcolor=#AC9D93
@@ -387,6 +422,48 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     primer_bind     4620..4653
+                     /label=316-74.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4620..4661
+                     /label=317-80.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4620..4679
+                     /label=318-84.9oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3755..3788
+                     /label=336-NAoC-
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4644..4673
+                     /label=403-70.8oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4595..4635
+                     /label=410-NAoC-
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4595..4635)
+                     /label=411-NAoC-
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      primer_bind     6092..6117
                      /label=412-60.1oC-F
                      /ApEinfo_fwdcolor=#AC9D93
@@ -405,185 +482,82 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     complement(5227..5266)
-                     /label=NA-72.4oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    2383..2409
-                     /label=New Feature
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    3700..3717
-                     /label=New Feature(1)
-                     /ApEinfo_label=New Feature
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    3302..3319
-                     /label=New Feature(2)
-                     /ApEinfo_label=New Feature
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    2983..2998
-                     /label=New Feature(3)
-                     /ApEinfo_label=New Feature
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    2377..2398
-                     /label=New Feature(4)
-                     /ApEinfo_label=New Feature
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    4644..4649
-                     /note="Geneious type: ORF"
-                     /label=KpnI
-                     /ApEinfo_fwdcolor=pink
-                     /ApEinfo_revcolor=pink
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4644..4653
-                     /label=316-74.4oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    4537..4537
-                     /label=ACS L641P mutation
-                     /ApEinfo_fwdcolor=#42aa3a
-                     /ApEinfo_revcolor=#42aa3a
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4620..4637
-                     /label=316-74.4oC-F(1)
-                     /ApEinfo_label=316-74.4oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4620..4637
-                     /label=317-80.2oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4644..4661
-                     /label=317-80.2oC-F(1)
-                     /ApEinfo_label=317-80.2oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4620..4637
-                     /label=318-84.9oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4644..4679
-                     /label=318-84.9oC-F(1)
-                     /ApEinfo_label=318-84.9oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    4616..4616
-                     /label=141030 remove XhoI
-                     /ApEinfo_fwdcolor=#ff6129
-                     /ApEinfo_revcolor=#ff6129
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4537..4550
-                     /label=277-70.4oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(4527..4537)
-                     /label=278-70.4oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4001..4021
-                     /label=290-63.4oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4521..4553
-                     /label=303-80.6oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(4521..4553)
-                     /label=304-80.6oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(4697..4717)
-                     /label=305-70.7oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4620..4653
-                     /label=316-74.4oC-F(2)
-                     /ApEinfo_label=316-74.4oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4620..4661
-                     /label=317-80.2oC-F(2)
-                     /ApEinfo_label=317-80.2oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4620..4679
-                     /label=318-84.9oC-F(2)
-                     /ApEinfo_label=318-84.9oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4644..4673
-                     /label=403-70.8oC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      primer_bind     4594..4635
                      /label=416-93.6oC-F
                      /ApEinfo_fwdcolor=#AC9D93
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     misc_feature    4712..4728
-                     /label=New Feature(5)
-                     /ApEinfo_label=New Feature
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
+     primer_bind     complement(2826..2846)
+                     /label=421-71.7oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     misc_feature    3802..3818
-                     /label=New Feature(6)
-                     /ApEinfo_label=New Feature
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
+     primer_bind     4169..4188
+                     /label=422-70.8oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4879..4902)
+                     /label=423-70.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4747..4769)
+                     /label=424-72.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(4811..4837)
+                     /label=425-71.9oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3425..3464
+                     /label=426-84.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3425..3464)
+                     /label=427-84.2oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3570..3609)
+                     /label=428-93.9oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3570..3609
+                     /label=429-93.9oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3867..3906)
+                     /label=430-93.2oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3867..3906
+                     /label=431-93.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4617..4651
+                     /label=432-80oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
