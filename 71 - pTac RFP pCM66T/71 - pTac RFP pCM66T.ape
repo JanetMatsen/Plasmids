@@ -1,12 +1,19 @@
-LOCUS       71___pTac_RFP_pC        6052 bp ds-DNA     linear       30-SEP-2013
+LOCUS       71___pTac_RFP_pC        6052 bp ds-DNA     linear       31-MAR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
 COMMENT     
+COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
+     misc_feature    2017..2056
+                     /label=matches up to +1 in pTac (de Boer 1985)
+                     /ApEinfo_fwdcolor=#ffdd3e
+                     /ApEinfo_revcolor=#ffdd3e
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      rep_origin      join(1180..1251,1253..1735)
                      /note="colE1"
                      /label=colE1
@@ -177,14 +184,8 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#ff7e4f
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     misc_feature    2219..2240
-                     /label=New Feature
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    2063..2066
-                     /label=Shine-Dalgarno
+                     /label=Shine-Dalgarno (RBS)
                      /ApEinfo_fwdcolor=#ffc097
                      /ApEinfo_revcolor=#ffc097
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -374,6 +375,18 @@ FEATURES             Location/Qualifiers
                      /label=251-70.6oC-R
                      /ApEinfo_fwdcolor=#680000
                      /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2022..2028
+                     /label=-35 sequence (de Boer 1985)
+                     /ApEinfo_fwdcolor=#ee4515
+                     /ApEinfo_revcolor=#ff6b25
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2045..2051
+                     /label=-10 (relative to transcription)
+                     /ApEinfo_fwdcolor=#ff5632
+                     /ApEinfo_revcolor=#ff5632
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN

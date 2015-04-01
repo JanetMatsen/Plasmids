@@ -41,14 +41,6 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=green
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     protein_bind    2055..2075
-                     /created_by="User"
-                     /modified_by="User"
-                     /label=lac operator (lacO)
-                     /ApEinfo_fwdcolor=pink
-                     /ApEinfo_revcolor=pink
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      gene            complement(3038..3853)
                      /gene="kan"
                      /label=kan
@@ -545,6 +537,33 @@ FEATURES             Location/Qualifiers
                      start
                      /ApEinfo_fwdcolor=#2ab02f
                      /ApEinfo_revcolor=#2ab02f
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2019..2025
+                     /label=called -35 in de Boer 1985
+                     /ApEinfo_fwdcolor=#ffb253
+                     /ApEinfo_revcolor=#ffb253
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2043..2049
+                     /label=called -10 in de Boer 1985
+                     /ApEinfo_fwdcolor=#ff903e
+                     /ApEinfo_revcolor=#ff903e
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     protein_bind    2055..2075
+                     /created_by="User"
+                     /modified_by="User"
+                     /label=lac operator (lacO)
+                     /ApEinfo_fwdcolor=#ff35a3
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2036..2036
+                     /label=1bp insertion between -35 and -10 that
+                     distinguishes pTrc and pTac
+                     /ApEinfo_fwdcolor=#ff1d10
+                     /ApEinfo_revcolor=#ff1d10
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
