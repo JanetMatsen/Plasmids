@@ -1,10 +1,9 @@
-LOCUS       72___pTrc_RFP_pC        6214 bp ds-DNA     linear       06-MAR-2015
+LOCUS       72___pTrc_RFP_pC        6214 bp ds-DNA     linear       31-MAR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
-COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -539,6 +538,13 @@ FEATURES             Location/Qualifiers
                      /label=439-95oC-F
                      /ApEinfo_fwdcolor=#AC9D93
                      /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2226..2231
+                     /label=CONSENSUS RBS aggagg. Often 10bp upstream of the
+                     start
+                     /ApEinfo_fwdcolor=#2ab02f
+                     /ApEinfo_revcolor=#2ab02f
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
