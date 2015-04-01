@@ -1,9 +1,14 @@
-LOCUS       72___pTrc_RFP_pC        6214 bp ds-DNA     linear       31-MAR-2015
+LOCUS       72___pTrc_RFP_pC        6214 bp ds-DNA     linear       01-APR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
+COMMENT     see gDoc for info about pTrc promoter: 2015_04_01: Components in
+            the pTrc vector promoter
+COMMENT     
+COMMENT     T7 gene10 translational enhancer = TTAACTTTATTATTAAAAATTAAAGAGG;
+            http://users.auth.gr/pchristo/research/plasmids/com/pTrcHisB.pdf
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -533,8 +538,7 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      misc_feature    2226..2231
-                     /label=CONSENSUS RBS aggagg. Often 10bp upstream of the
-                     start
+                     /label=CONSENSUS RBS aggagg. Often 10bp upstream of the st
                      /ApEinfo_fwdcolor=#2ab02f
                      /ApEinfo_revcolor=#2ab02f
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -560,10 +564,15 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      misc_feature    2036..2036
-                     /label=1bp insertion between -35 and -10 that
-                     distinguishes pTrc and pTac
+                     /label=1bp insertion between -35 and -10 that distinguishe
                      /ApEinfo_fwdcolor=#ff1d10
                      /ApEinfo_revcolor=#ff1d10
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2173..2200
+                     /label=T7 gene10 translational enhancer
+                     /ApEinfo_fwdcolor=#3188ff
+                     /ApEinfo_revcolor=#3188ff
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
