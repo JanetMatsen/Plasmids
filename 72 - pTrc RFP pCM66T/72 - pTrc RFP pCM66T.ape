@@ -1,4 +1,4 @@
-LOCUS       72___pTrc_RFP_pC        6214 bp ds-DNA     linear       01-APR-2015
+LOCUS       72___pTrc_RFP_pC        6214 bp ds-DNA     linear       02-APR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
@@ -9,7 +9,6 @@ COMMENT     see gDoc for info about pTrc promoter: 2015_04_01: Components in
 COMMENT     
 COMMENT     T7 gene10 translational enhancer = TTAACTTTATTATTAAAAATTAAAGAGG;
             http://users.auth.gr/pchristo/research/plasmids/com/pTrcHisB.pdf
-COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      rep_origin      join(1180..1251,1253..1735)
@@ -573,6 +572,24 @@ FEATURES             Location/Qualifiers
                      /label=T7 gene10 translational enhancer
                      /ApEinfo_fwdcolor=#3188ff
                      /ApEinfo_revcolor=#3188ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2196..2200
+                     /label=RBS for mini-cistron
+                     /ApEinfo_fwdcolor=#67a8ff
+                     /ApEinfo_revcolor=#67a8ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2210..2212
+                     /label=start codon for mini-cistron
+                     /ApEinfo_fwdcolor=#79e0ff
+                     /ApEinfo_revcolor=#79e0ff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2234..2236
+                     /label=stop codon for mini-cistron
+                     /ApEinfo_fwdcolor=#52c4ff
+                     /ApEinfo_revcolor=#52c4ff
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
