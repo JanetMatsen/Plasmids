@@ -1,0 +1,79 @@
+LOCUS       109____insert_fr        1389 bp ds-DNA     linear       01-APR-2015
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     doesn't have His*6 tag.  Not sure exactly what this corresponds to.
+            
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     primer_bind     complement(98..120)
+                     /label=103-63.5oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     602..620
+                     /label=104-64oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1234..1251
+                     /label=105-64oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     570..590
+                     /label=117-64oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     216..237
+                     /label=183-67.6oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4..28
+                     /label=217-70.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1355..1374)
+                     /label=289-65oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 CATATGAGCC TGGAAGATAA GGACCTGCGT AGCATCCAAG AAGTGCGTAA CCTGATCGAA
+       61 TCTGCGAATA AGGCCCAAAA AGAACTGGCG GCGATGTCAC AGCAACAGAT TGATACCATC
+      121 GTGAAAGCGA TTGCCGACGC AGGCTATGGT GCGCGTGAAA AACTGGCTAA GATGGCGCAC
+      181 GAAGAAACGG GCTTTGGTAT TTGGCAGGAT AAAGTTATCA AGAACGTCTT CGCCTCGAAG
+      241 CATGTCTACA ACTACATCAA GGATATGAAG ACCATCGGTA TGCTGAAAGA AGACAACGAA
+      301 AAGAAAGTTA TGGAAGTCGC AGTGCCGCTG GGCGTGGTTG CTGGTCTGAT TCCGTCAACC
+      361 AATCCGACCT CGACGGTGAT CTACAAAACG CTGATTTCAA TCAAGGCGGG CAACAGTATC
+      421 GTGTTTAGCC CGCACCCGAA TGCCCTGAAA GCAATTCTGG AAACCGTCCG CATTATCTCA
+      481 GAAGCGGCCG AAAAAGCAGG CTGCCCGAAG GGTGCTATTT CGTGTATGAC CGTTCCGACG
+      541 ATCCAAGGCA CCGATCAGCT GATGAAACAT AAGGACACCG CTGTCATTCT GGCAACGGGC
+      601 GGTTCTGCGA TGGTGAAAGC AGCTTATAGC TCTGGCACCC CGGCAATTGG TGTGGGTCCG
+      661 GGCAACGGTC CGGCCTTTAT TGAACGTAGT GCGAATATCC CGCGTGCGGT TAAACACATC
+      721 CTGGATTCCA AGACCTTCGA CAACGGTACG ATTTGCGCCA GCGAACAGTC TGTCGTGGTT
+      781 GAACGTGTCA ATAAAGAAGC TGTGATCGCG GAATTTCGCA AGCAAGGCGC ACACTTCCTG
+      841 AGTGATGCTG AAGCGGTGCA GCTGGGCAAA TTCATTCTGC GTCCGAACGG TAGCATGAAT
+      901 CCGGCGATTG TGGGCAAAAG CGTGCAACAT ATCGCAAACC TGGCAGGTCT GACCGTGCCG
+      961 GCCGATGCAC GTGTTCTGAT TGCGGAAGAA ACGAAAGTTG GCGCCAAGAT CCCGTATAGT
+     1021 CGCGAAAAAC TGGCCCCGAT TCTGGCATTT TACACCGCTG AAACGTGGCA GGAAGCATGC
+     1081 GAACTGAGCA TGGATATTCT GTACCATGAA GGCGCTGGTC ACACCCTGAT TATCCATAGC
+     1141 GAAGACAAAG AAATTATCCG TGAATTTGCA CTGAAAAAGC CGGTTTCTCG CCTGCTGGTC
+     1201 AACACGCCGG GCGCGCTGGG CGGCATTGGT GCCACCACGA ATCTGGTTCC GGCACTGACG
+     1261 CTGGGCTGTG GTGCTGTCGG CGGTAGTTCC TCATCGGATA ATATCGGTCC GGAAAACCTG
+     1321 TTTAATATTC GTCGCATCGC CACCGGCGTG CTGGAACTGG AAGACATTCG CGAAGGCGGT
+     1381 AGCCTCGAG     
+//
