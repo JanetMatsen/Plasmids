@@ -1,4 +1,4 @@
-LOCUS       95_pTrc_His2C_AD        5785 bp ds-DNA     circular     05-MAR-2015
+LOCUS       95_pTrc_His2C_AD        5785 bp ds-DNA     circular     02-APR-2015
 DEFINITION  .
 ACCESSION   urn.local...1350583095764.50
 VERSION     urn.local...1350583095764.50
@@ -9,6 +9,7 @@ COMMENT     plasmid 95: keep colony 4.28-4.
 COMMENT     plasmid 95: Uses 3K9D sequence, which is a trimmed version of the
             WT listeria ADH.
 COMMENT     plasmid 95: Linker = GGS. 
+COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      rep_origin      3470..4089
@@ -153,6 +154,12 @@ FEATURES             Location/Qualifiers
                      /label=319-70.2oC-R
                      /ApEinfo_fwdcolor=#680000
                      /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1784..1795
+                     /label=EGGS sequence not found in WT from Listeria. Artifa
+                     /ApEinfo_fwdcolor=#ff9d43
+                     /ApEinfo_revcolor=#ff9d43
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     4174..4193
@@ -443,11 +450,82 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#680000
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     misc_feature    1784..1795
-                     /label=EGGS sequence not found in WT from Listeria.
-                     Artifact of 3K9D
-                     /ApEinfo_fwdcolor=#ff9d43
-                     /ApEinfo_revcolor=#ff9d43
+     primer_bind     359..418
+                     /label=401-74.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1820..1849
+                     /label=403-70.8oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3313..3338
+                     /label=412-60.1oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(2418..2442)
+                     /label=413-58.4oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     3313..3363
+                     /label=414-70.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(2055..2078)
+                     /label=423-70.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1923..1945)
+                     /label=424-72.8oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1987..2013)
+                     /label=425-71.9oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1796..1827
+                     /label=432-80oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     359..418
+                     /label=433-74.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2668..2696
+                     /label=434-77oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(3198..3228)
+                     /label=435-76.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(359..418)
+                     /label=436-74.4oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
