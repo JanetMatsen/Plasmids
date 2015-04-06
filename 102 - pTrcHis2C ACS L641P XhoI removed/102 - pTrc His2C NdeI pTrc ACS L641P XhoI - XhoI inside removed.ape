@@ -1,9 +1,10 @@
-LOCUS       102___pTrc_His2C        6409 bp ds-DNA     circular     20-MAR-2015
+LOCUS       102___pTrc_His2C        6409 bp ds-DNA     circular     06-APR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
+COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -29,7 +30,7 @@ FEATURES             Location/Qualifiers
                      width 5 offset 0
      misc_feature    join(535..905,907..2452,2454..2553)
                      /note="Geneious type: ORF"
-                     /label=ACS(wt, pET15 mod w/ primer)
+                     /label=ACS (wt, pET15 mod w/ primer)
                      /ApEinfo_fwdcolor=#a46bff
                      /ApEinfo_revcolor=#a46bff
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}

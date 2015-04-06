@@ -1,81 +1,86 @@
-LOCUS       VF2_ACS_AmandasLin        4116 bp ds-DNA   linear       20-DEC-2011
+LOCUS       7___VF2_ACS_Aman        4116 bp ds-DNA     linear       06-APR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
 COMMENT     
+COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      misc_feature    119..140
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
                      /label=BioBricks Prefix
                      /ApEinfo_fwdcolor=#cdcdcd
                      /ApEinfo_revcolor=green
-     misc_feature    119..124
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     misc_feature    119..124
                      /label=EcoRI
                      /ApEinfo_fwdcolor=#e7a8f7
                      /ApEinfo_revcolor=green
-     misc_feature    134..139
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     misc_feature    134..139
                      /label=XbaI
                      /ApEinfo_fwdcolor=#f0cbfa
                      /ApEinfo_revcolor=green
-     misc_feature    181..194
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     misc_feature    181..194
                      /label=RBS
                      /ApEinfo_fwdcolor=#00a4a4
                      /ApEinfo_revcolor=green
-     misc_feature    2189..3946
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     misc_feature    2189..3946
                      /label=DHAK
                      /ApEinfo_fwdcolor=#88c180
                      /ApEinfo_revcolor=green
-     misc_feature    2175..2188
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     misc_feature    2175..2188
                      /label=RBS(1)
                      /ApEinfo_label=RBS
                      /ApEinfo_fwdcolor=#00a4a4
                      /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      misc_feature    3947..3967
                      /label=Suffix
                      /ApEinfo_fwdcolor=#c3ff0b
                      /ApEinfo_revcolor=#ce4ea9
-     misc_feature    125..132
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     misc_feature    125..132
                      /label=NotI
                      /ApEinfo_fwdcolor=#a042ff
                      /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      misc_feature    4103..4116
                      /label=VR
                      /ApEinfo_fwdcolor=cyan
                      /ApEinfo_revcolor=green
-     misc_feature    1..20
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     misc_feature    1..20
                      /label=VF2 primer
                      /ApEinfo_fwdcolor=#ffc891
                      /ApEinfo_revcolor=green
-     misc_feature    195..2153
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-                     /label=ACS
+     misc_feature    195..2153
+                     /label=ACS (codon optimized)
                      /ApEinfo_fwdcolor=#bdd9c5
                      /ApEinfo_revcolor=green
-     misc_feature    141..180
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     misc_feature    141..180
                      /label=pP-lac
                      /ApEinfo_fwdcolor=#ffffc1
                      /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
 ORIGIN
         1 TGCCACCTGA CGTCTAAGAA ACCATTATTA TCATGACATT AACCTATAAA AATAGGCGTA
        61 TCACGAGGCA GAATTTCAGA TAAAAAAAAT CCTTAGCTTT CGCTAAGGAT GATTTCTGGA

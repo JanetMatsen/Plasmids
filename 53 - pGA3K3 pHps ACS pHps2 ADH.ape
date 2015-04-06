@@ -1,10 +1,9 @@
-LOCUS       53___pGA3K3_pHps        6517 bp ds-DNA     circular     28-MAR-2013
+LOCUS       53___pGA3K3_pHps        6517 bp ds-DNA     circular     06-APR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
-COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -98,8 +97,7 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      misc_feature    772..2323
-                     /label=ACS(1)
-                     /ApEinfo_label=ACS
+                     /label=ACS (WT)
                      /ApEinfo_fwdcolor=#5b5bff
                      /ApEinfo_revcolor=#5e5eff
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
