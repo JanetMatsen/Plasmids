@@ -1,9 +1,10 @@
-LOCUS       2013_09_30_pTrc_        6934 bp ds-DNA     linear       09-OCT-2013
+LOCUS       2013_09_30_pTrc_        6934 bp ds-DNA     linear       06-APR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
+COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -21,13 +22,6 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=pink
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     promoter        2020..2025
-                     /created_by="User"
-                     /label=-35
-                     /ApEinfo_fwdcolor=pink
-                     /ApEinfo_revcolor=pink
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      gene            complement(4859..6007)
                      /gene="trfA"
                      /label=trfA
@@ -35,10 +29,9 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=green
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     protein_bind    2055..2075
+     promoter        2020..2025
                      /created_by="User"
-                     /modified_by="User"
-                     /label=lac operator (lacO)
+                     /label=-35
                      /ApEinfo_fwdcolor=pink
                      /ApEinfo_revcolor=pink
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -115,66 +108,6 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=green
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     4470..4489
-                     /label=AP_box1_posC7-oC-F
-                     /ApEinfo_fwdcolor=#660066
-                     /ApEinfo_revcolor=#000066
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(4445..4489)
-                     /label=AP_box1_posE2-oC-R
-                     /ApEinfo_fwdcolor=#333300
-                     /ApEinfo_revcolor=#333300
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4625..4660
-                     /label=AP_box1_posE9-oC-F
-                     /ApEinfo_fwdcolor=#660066
-                     /ApEinfo_revcolor=#000066
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(812..832)
-                     /label=AP_box1_posH4-65oC-F
-                     /ApEinfo_fwdcolor=#660066
-                     /ApEinfo_revcolor=#000066
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(860..881)
-                     /label=AP_box1_posG8-oC-R
-                     /ApEinfo_fwdcolor=#333300
-                     /ApEinfo_revcolor=#333300
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     6195..6216
-                     /label=AP_box1_posI7-oC-F
-                     /ApEinfo_fwdcolor=#660066
-                     /ApEinfo_revcolor=#000066
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(915..934)
-                     /label=AP_boxNA_pos26-oC-F
-                     /ApEinfo_fwdcolor=#660066
-                     /ApEinfo_revcolor=#000066
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     935..962
-                     /label=AP_boxNA_pos27-oC-R
-                     /ApEinfo_fwdcolor=#333300
-                     /ApEinfo_revcolor=#333300
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     4582..4607
-                     /label=AP_boxNA_pos47-oC-R
-                     /ApEinfo_fwdcolor=#333300
-                     /ApEinfo_revcolor=#333300
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(1798..1817)
-                     /label=AP_boxNA_pos-oC-F
-                     /ApEinfo_fwdcolor=#660066
-                     /ApEinfo_revcolor=#000066
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    1252..1252
                      /label=was T in genbank pCM66 - haven't compared to my pCM
                      /ApEinfo_fwdcolor=#ff0a1b
@@ -200,52 +133,49 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#b2c5ff
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     complement(812..832)
-                     /label=126-72.8oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
+     misc_feature    2019..2025
+                     /label=called -35 in de Boer 1985
+                     /ApEinfo_fwdcolor=#ffb253
+                     /ApEinfo_revcolor=#ffb253
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     761..785
-                     /label=132-73.2oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
+     misc_feature    2043..2049
+                     /label=called -10 in de Boer 1985
+                     /ApEinfo_fwdcolor=#ff903e
+                     /ApEinfo_revcolor=#ff903e
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     841..862
-                     /label=145-64.6oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
+     protein_bind    2055..2075
+                     /created_by="User"
+                     /modified_by="User"
+                     /label=lac operator (lacO)
+                     /ApEinfo_fwdcolor=#ff35a3
+                     /ApEinfo_revcolor=pink
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     3728..3787
-                     /label=214-69.5oC-NA
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
+     misc_feature    2036..2036
+                     /label=1bp insertion between -35 and -10 that
+                     distinguishes pTac from pTrc
+                     /ApEinfo_fwdcolor=#ff1d10
+                     /ApEinfo_revcolor=#ff1d10
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     complement(4732..4791)
-                     /label=223-70.3oC-R
-                     /ApEinfo_fwdcolor=#680000
-                     /ApEinfo_revcolor=#483E37
+     misc_feature    2173..2200
+                     /label=T7 gene10 translational enhancer
+                     /ApEinfo_fwdcolor=#3188ff
+                     /ApEinfo_revcolor=#3188ff
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     1789..1812
-                     /label=238-NAoC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
+     misc_feature    2196..2200
+                     /label=RBS for mini-cistron
+                     /ApEinfo_fwdcolor=#67a8ff
+                     /ApEinfo_revcolor=#67a8ff
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     primer_bind     1982..2041
-                     /label=247-NAoC-F
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#680000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_feature    2188..2239
-                     /label=pTrc binding-R
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
+     misc_feature    2098..2160
+                     /label=rrnB antitermination sequence
+                     /ApEinfo_fwdcolor=#967bff
+                     /ApEinfo_revcolor=#967bff
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      primer_bind     1793..1812
@@ -422,10 +352,118 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     primer_bind     1914..1936
+                     /label=261-69.6oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      primer_bind     2663..2680
-                     /label=262-70.9oC-NA
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
+                     /label=262-70.9oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     4..21
+                     /label=263-69.6oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1180..1204
+                     /label=265-70.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     6009..6027
+                     /label=267-70.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     503..521
+                     /label=268-70.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(1298..1318)
+                     /label=269-69.3oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(27..42)
+                     /label=274-70oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     5616..5639
+                     /label=275-69.6oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     5163..5183
+                     /label=276-70.1oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     1856..1876
+                     /label=284-69.9oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     932..954
+                     /label=287-57.2oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2093..2111
+                     /label=293-65.3oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2046..2071
+                     /label=295-69.5oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2093..2112
+                     /label=299-68.5oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     2149..2169
+                     /label=300-69.7oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     932..957
+                     /label=412-60.1oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     932..982
+                     /label=414-70.4oC-F
+                     /ApEinfo_fwdcolor=#AC9D93
+                     /ApEinfo_revcolor=#680000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     primer_bind     complement(817..847)
+                     /label=435-76.6oC-R
+                     /ApEinfo_fwdcolor=#680000
+                     /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
