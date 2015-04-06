@@ -1,7 +1,6 @@
-LOCUS       85___pET29b__wit        6775 bp ds-DNA     circular     01-APR-2015
+LOCUS       85___pET29b__wit        6775 bp ds-DNA     circular     05-APR-2015
 SOURCE      
   ORGANISM  
-COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -65,30 +64,6 @@ FEATURES             Location/Qualifiers
                      /label=colE1
                      /ApEinfo_fwdcolor=#fd8aec
                      /ApEinfo_revcolor=pink
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(4054..4073)
-                     /label=pSB1A3_Jus_Fwd-NAoC
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#483E37
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     5285..5304
-                     /label=ACS_fwd-verify-631  -65.2oC
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#483E37
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     6042..6062
-                     /label=ACS_fwd-verify-1381 -63.4oC
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#483E37
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(5421..5443)
-                     /label=ACS_rev-verify-790  -64.7oC
-                     /ApEinfo_fwdcolor=#AC9D93
-                     /ApEinfo_revcolor=#483E37
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      misc_feature    join(6577..6577,6579..6579)
