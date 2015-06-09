@@ -1,10 +1,9 @@
-LOCUS       112___pCM433_Kan        5367 bp ds-DNA     circular     11-MAY-2015
+LOCUS       112___pCM433_Kan        5367 bp ds-DNA     circular     09-JUN-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
-COMMENT     
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
@@ -28,7 +27,7 @@ FEATURES             Location/Qualifiers
                      width 5 offset 0
      misc_feature    2163..2978
                      /label=kanR
-                     /ApEinfo_fwdcolor=#ffff00
+                     /ApEinfo_fwdcolor=#ff2553
                      /ApEinfo_revcolor=green
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
