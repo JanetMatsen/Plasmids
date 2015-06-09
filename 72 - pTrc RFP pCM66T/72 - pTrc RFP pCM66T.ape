@@ -1,4 +1,4 @@
-LOCUS       72___pTrc_RFP_pC        6214 bp ds-DNA     linear       02-APR-2015
+LOCUS       72___pTrc_RFP_pC        6214 bp ds-DNA     linear       10-APR-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
@@ -9,7 +9,6 @@ COMMENT     see gDoc for info about pTrc promoter: 2015_04_01: Components in
 COMMENT     
 COMMENT     T7 gene10 translational enhancer = TTAACTTTATTATTAAAAATTAAAGAGG;
             http://users.auth.gr/pchristo/research/plasmids/com/pTrcHisB.pdf
-COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      rep_origin      join(1180..1251,1253..1735)
