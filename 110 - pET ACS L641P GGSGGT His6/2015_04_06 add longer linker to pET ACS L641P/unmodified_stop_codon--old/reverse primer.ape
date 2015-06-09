@@ -1,0 +1,29 @@
+LOCUS       New_DNA                   60 bp ds-DNA     linear       06-APR-2015
+SOURCE      
+  ORGANISM  
+COMMENT     pET29b+ with ACS L641P GGSGGT His6 from 6592 to 6651
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     protein_bind    complement(4..21)
+                     /vntifkey="31"
+                     /label=His\tag
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    complement(40..60)
+                     /label=ACS in pET vector
+                     /ApEinfo_fwdcolor=#ff826c
+                     /ApEinfo_revcolor=#ff826c
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    complement(22..39)
+                     /label=GGSGGT linker
+                     /ApEinfo_fwdcolor=#ff6386
+                     /ApEinfo_revcolor=#ff6386
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 tcagtggtgg tggtggtggt gGGTCCCGCC GCTGCCTCCC GATGGCATCG CGATAGCCTG
+//
