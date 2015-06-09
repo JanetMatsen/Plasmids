@@ -1,10 +1,11 @@
-LOCUS       105___NcoI_mRFP_        5086 bp ds-DNA     linear       04-DEC-2014
+LOCUS       105___NcoI_mRFP_        5086 bp ds-DNA     linear       09-JUN-2015
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
 COMMENT     92 - pTrc ACS L641P for library template from 2508 to 6409
+COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      CDS             join(513..928,930..1184)
@@ -426,6 +427,13 @@ FEATURES             Location/Qualifiers
                      /label=g --> A that I think is frequently seen in pTrc
                      /ApEinfo_fwdcolor=#c0ffff
                      /ApEinfo_revcolor=#c0ffff
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    1413..1570
+                     /label=rrnB T1 and T2 transcriptional terminators (from
+                     commercial vector)
+                     /ApEinfo_fwdcolor=#5a0d4e
+                     /ApEinfo_revcolor=#5a0d4e
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN
